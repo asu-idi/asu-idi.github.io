@@ -8,7 +8,6 @@
       {% include portrait.html lookup=include.author style="tiny" %}
     {% else %}
       <span data-tooltip="Author">
-        {% include icon.html icon="fa-solid fa-feather-pointed" %}
         <span>{{ include.author }}</span>
       </span>
     {% endif %}
@@ -33,5 +32,5 @@
 </div>
 
 {% if include.tags %}
-  {% include tags.html tags=include.tags link="blog" %}
+  {% include tags.html tags=include.tags link="projects" %}
 {% endif %}

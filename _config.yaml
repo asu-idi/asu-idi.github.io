@@ -1,6 +1,6 @@
 # site properties and page defaults
 title: ASU-IDI
-subtitle: 
+subtitle: The Intelligent Data Infrastructure Lab at Arizona State University
 description: An engaging 1-3 sentence description of your lab.
 header: images/background.jpg
 footer: images/background.jpg
@@ -30,6 +30,11 @@ defaults:
       type: "posts"
     values:
       layout: post
+  # markdown files in /_project_data
+  - scope:
+      type: "project_data"
+    values:
+      layout: post
 
 collections:
   # generate page for each member
@@ -37,6 +42,9 @@ collections:
     output: true
   # generate page for each post
   posts:
+    output: true
+  # generate page for each project post
+  project_data:
     output: true
 
 # jekyll plugins

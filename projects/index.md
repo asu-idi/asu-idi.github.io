@@ -2,18 +2,19 @@
 title: Projects
 nav:
   order: 2
-  tooltip: Software, databases, and more
+  tooltip: Our Ideas, Solutions, and Work
   display: true
+  date: 2021-01-01
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
-
-{% include tags.html tags="publication, resource, website" %}
-
-{% include search-info.html %}
+# {% include icon.html icon="fa-solid fa-cubes" %}Projects
 
 {% include section.html %}
 
-## Current Projects
+{% include search-box.html %}
 
-{% include list.html data="project_posts" component="post-excerpt" %}
+{% include tags.html tags=site.tags %}
+
+{% include search-info.html %}
+
+{% include list.html data="project_data" component="post-excerpt" %}
