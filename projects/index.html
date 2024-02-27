@@ -44,17 +44,17 @@
 <link rel="icon" href="/images/icon.png">
 
 <meta name="title" content="Projects">
-<meta name="description" content="An engaging 1-3 sentence description of your lab.">
+<meta name="description" content="The Intelligent Data Infrastructure Lab at Arizona State University. An engaging 1-3 sentence description of your lab.">
 
 <meta property="og:title" content="Projects">
 <meta property="og:site_title" content="ASU-IDI">
-<meta property="og:description" content="An engaging 1-3 sentence description of your lab.">
+<meta property="og:description" content="The Intelligent Data Infrastructure Lab at Arizona State University. An engaging 1-3 sentence description of your lab.">
 <meta property="og:url" content="">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Projects">
-<meta property="twitter:description" content="An engaging 1-3 sentence description of your lab.">
+<meta property="twitter:description" content="The Intelligent Data Infrastructure Lab at Arizona State University. An engaging 1-3 sentence description of your lab.">
 <meta property="twitter:url" content="">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
@@ -70,7 +70,7 @@
       "@type": "WebSite",
     
     "name": "Projects",
-    "description": "An engaging 1-3 sentence description of your lab.",
+    "description": "The Intelligent Data Infrastructure Lab at Arizona State University. An engaging 1-3 sentence description of your lab.",
     "headline": "Projects",
     "publisher": {
       "@type": "Organization",
@@ -439,6 +439,8 @@
           <span>ASU-IDI</span>
         
         
+          <span>The Intelligent Data Infrastructure Lab at Arizona State University</span>
+        
       </span>
     
   </a>
@@ -454,7 +456,7 @@
     
       
         
-          <a href="/projects/" data-tooltip="Software, databases, and more">
+          <a href="/projects/" data-tooltip="Our Ideas, Solutions, and Work">
             Projects
           </a>
         
@@ -465,10 +467,6 @@
           <a href="/team/" data-tooltip="About our team">
             Team
           </a>
-        
-      
-    
-      
         
       
     
@@ -505,9 +503,7 @@
 
   <section class="background" data-size="page">
     <h1 id="projects">
-<i class="icon fa-solid fa-wrench"></i>Projects</h1>
-
-<div class="search-info"></div>
+<i class="icon fa-solid fa-cubes"></i>Projects</h1>
   </section>
 
   
@@ -521,7 +517,75 @@
   size: ;
 -->
 
-<h2 id="current-projects">Current Projects</h2>
+<div class="search-box">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
+    <i class="icon fa-solid fa-magnifying-glass"></i>
+  </button>
+</div>
+
+<div class="search-info"></div>
+
+<div class="post-excerpt">
+  
+  
+  <a href="/project_data/gpt_project.html">LLM-Assisted Configuration Tuning for Log-Structured Merge-tree-based Key-Value Stores</a>
+
+  <div class="post-info">
+  
+    
+    
+      <span data-tooltip="Author">
+        <span>Madhumitha Sukumar, Jiaxin Dai, Kaushiki Singh, Vikriti Lokegaonkar, Viraj Thakkar, Zhichao Cao</span>
+      </span>
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>February 27, 2024</span>
+    </span>
+  
+
+  
+</div>
+
+
+  
+
+
+  <div class="tags" data-link="/projects">
+    
+      <a href="/projects?search=%22tag:%20LSM-KVS%22" class="tag" data-tooltip='Show items with the tag "LSM-KVS"'>
+        LSM-KVS
+      </a>
+    
+      <a href="/projects?search=%22tag:%20Tuning%22" class="tag" data-tooltip='Show items with the tag "Tuning"'>
+        Tuning
+      </a>
+    
+      <a href="/projects?search=%22tag:%20AI%22" class="tag" data-tooltip='Show items with the tag "AI"'>
+        AI
+      </a>
+    
+  </div>
+
+
+
+
+
+  
+  
+  <p data-search="Design and develop an LLM assisted auto tuning framework for Log Structured Merge tree based Key Value Stores  LSM KVS  to achieve better performance Log Structured Merge tree based Key Value Stores  LSM KVS  are widely used in today s IT infrastructure   and usually have over 100 options  e g   HBase and RocksDB   to tune performance for particular hardware  e g   CPU  memory  and storage   software  and workloads  e g   random  skewed  and read write intensive    However  tuning the LSM KVS with appropriate configurations is always challenging  usually requiring IT professionals with LSM KVS expertise to run hundreds of benchmarking evaluations  Existing related studies on LSM KVS tuning solutions are still limited  lacking generality  adaptiveness to the versions and deployments  We believe the recent advancements of Large Language Models  LLMs  like OpenAI s GPT 4 can be a promising solution to achieve LSM KVS auto tuning  1  LLMs are trained using collections of LSM KVS related blog  publications  and almost all the open sourced code  which makes the LLMs a real  expert  of LSM KVS  2  LLMs has the strong inferential capability to analyze the benchmarking results and achieve automatic and interactive adjustments for LSM KVS on particular hardware and workloads  However  how to design the auto tuning framework based on LLMs and benchmarking tools  how to generate appropriate prompts for LLMs  and how to calibrate the unexpected errors and wrong configurations are three main challenges to be addressed We propose to design and develop an LLM assisted auto tuning framework as shown in Figure with the following workflow  1  Use default options file and a collection of system and hardware information as initial input  2  Use a feedback loop with the LLM API and create new prompts for LLM with option changes and the processed benchmarking results in the previous iterations  3  The newly generated options from LLM are calibrated  cleaned and corrected  for a new round of benchmarking  And 4  after several iterations  the benchmarking results have converged and it generates the final optimized option configurations  Note that the whole process is automatically deployed and executed without human intervention  We implemented the framework prototype on RocksDB v8 8 1 and OpenAI s GPT 4 1106 model  and open sourced  Our preliminary evaluations show that with 5 iterations of auto tuning  our framework achieves up to 20  of throughput improvement compared with default configurations ">
+    
+Design and develop an LLM-assisted auto-tuning framework for Log-Structured Merge-tree-based Key-Value Stores (LSM-KVS) to achieve better performance.
+
+  </p>
+</div>
   </section>
 
 
