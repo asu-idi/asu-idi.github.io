@@ -32,7 +32,7 @@ defaults:
       layout: post
   # markdown files in /_project_data
   - scope:
-      type: "project_data"
+      type: "projects"
     values:
       layout: post
 
@@ -44,7 +44,7 @@ collections:
   posts:
     output: true
   # generate page for each project post
-  project_data:
+  projects:
     output: true
 
 # jekyll plugins

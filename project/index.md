@@ -4,7 +4,6 @@ nav:
   order: 2
   tooltip: Our Ideas, Solutions, and Work
   display: true
-  date: 2021-01-01
 ---
 
 # {% include icon.html icon="fa-solid fa-cubes" %}Projects
@@ -17,4 +16,4 @@ nav:
 
 {% include search-info.html %}
 
-{% include list.html data="project_data" component="post-excerpt" %}
+{% include list.html data="projects" component="post-excerpt" %}
