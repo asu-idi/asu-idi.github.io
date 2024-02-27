@@ -47,12 +47,14 @@
     %}
     {% for page in pages %}
       {% if page.nav %}
-        <a
-          href="{{ page.dir | relative_url }}"
-          data-tooltip="{{ page.nav.tooltip }}"
-        >
-          {{ page.title }}
-        </a>
+        {% if page.nav.display %}
+          <a
+            href="{{ page.dir | relative_url }}"
+            data-tooltip="{{ page.nav.tooltip }}"
+          >
+            {{ page.title }}
+          </a>
+        {% endif %}
       {% endif %}
     {% endfor %}
   </nav>
