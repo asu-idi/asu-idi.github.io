@@ -41,3 +41,29 @@
       - Zhichao Cao
   conference: ACM HotStorage 2024
   type: To Appear
+
+- id: https://doi.org/10.1109/ICCD58817.2023.00050
+  authors:
+      - Zhichao Cao
+      - Hao Wen
+      - Fenggang Wu
+      - David H.C. Du
+  date: '2023-11-06'
+  conference: IEEE ICCD 2023
+
+- id: https://doi.org/10.1109/ICCD58817.2023.00041
+  authors:
+      - Hao Wen
+      - Zhichao Cao
+      - Bingzhe Li
+      - David H.C. Du
+      - Ayman Abouelwafa
+      - Doug Voigt
+      - Shiyong Liu
+      - Jim Diehl
+      - Fenggang Wu
+  date: '2023-11-06'
+  conference: IEEE ICCD 2023
+
+- id: https://doi.org/10.1145/3653924.3653935
+  conference: ACM DSDE 2024
