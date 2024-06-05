@@ -33,7 +33,7 @@
   --regular: 400;
   --semi-bold: 500;
   --bold: 600;
-  --spacing: 2;
+  --spacing: 1.5;
   --rounded: 3px;
   --shadow: 0 0 10px 0 var(--overlay);
 }
