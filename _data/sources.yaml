@@ -52,6 +52,7 @@
   conference: IEEE ICCD 2023
 
 - id: https://doi.org/10.1109/ICCD58817.2023.00041
+  title: "K8sES: Optimizing Kubernetes with Enhanced Storage Service-Level Objectives"
   authors:
       - Hao Wen
       - Zhichao Cao
