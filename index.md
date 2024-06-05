@@ -38,8 +38,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include button.html
-  link="project"
-  text="Browse our projects"
+  link="research"
+  text="Browse our research"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -50,8 +50,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="project"
-  title="Our Projects"
+  link="research"
+  title="Our Research"
   flip=true
   style="bare"
   text=text

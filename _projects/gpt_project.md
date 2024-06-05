@@ -1,6 +1,5 @@
 ---
 title: LLM-Assisted Configuration Tuning for Log-Structured Merge-tree-based Key-Value Stores
-author: Madhumitha Sukumar, Jiaxin Dai, Kaushiki Singh, Vikriti Lokegaonkar, Viraj Thakkar, Zhichao Cao
 tags: LSM-KVS, Tuning, AI
 ---
 
