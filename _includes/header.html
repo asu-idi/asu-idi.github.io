@@ -22,7 +22,11 @@
         {% if svg %}
           {{ svg | file_read }}
         {% else %}
-          <img src="{{ logo | relative_url }}" alt="logo">
+          {% if page.url == "/" %}
+            <img src="{{ logo | relative_url }}" style='height: 80%' alt="logo">
+          {% else %}
+            <img src="{{ logo | relative_url }}" alt="logo">
+          {% endif %}
         {% endif %}
       </span>
     {% endif %}
@@ -31,8 +35,10 @@
         {% if site.title and site.show-title != false %}
           <span>{{ site.title }}</span>
         {% endif %}
-        {% if site.subtitle and site.show-subtitle != false %}
-          <span>{{ site.subtitle }}</span>
+        {% if page.url == "/" %}
+          {% if site.subtitle and site.show-subtitle != false %}
+            <span>{{ site.subtitle }}</span>
+          {% endif %}
         {% endif %}
       </span>
     {% endif %}

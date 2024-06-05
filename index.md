@@ -7,6 +7,31 @@ The Intelligent Data Infrastructure (IDI) research lab delves into database syst
 
 {% include section.html %}
 
+## News
+
+{% assign news = site.data.news 
+  | sort: 'date'
+  | reverse
+%}
+
+{% for item in news limit:5 %}
+{%
+  include news.html
+  date=item.date
+  type=item.type
+  content=item.title
+%}
+{% endfor %}
+
+{%
+  include button.html
+  link="news"
+  text="See all news"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
 ## Highlights
 
 {% capture text %}

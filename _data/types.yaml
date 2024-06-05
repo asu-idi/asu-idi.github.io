@@ -150,6 +150,24 @@ error:
   icon: fa-solid fa-ban
   color: "#ef4444"
 
+# news
+
+news-paper-accepted:
+  icon: fa-solid fa-file-lines
+  color: "#22c55e"
+
+news-info:
+  icon: fa-solid fa-circle-info
+  color: "#6366f1"
+
+news-award:
+  icon: fa-solid fa-award
+  color: "#ffd700"
+
+news-general:
+  icon: fa-solid fa-newspaper
+  color: "#0ea5e9"
+
 # publications
 
 paper:
