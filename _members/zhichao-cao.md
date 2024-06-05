@@ -1,6 +1,6 @@
 ---
 name: Zhichao Cao
-image: images/photo.jpg
+image: images/members/zcao57.png
 role: pi
 links:
   home-page: https://search.asu.edu/profile/4082902

@@ -1,6 +1,6 @@
 {% assign citation = site.data.citations
   | where_exp: "citation",
-    "citation.id == include.lookup or citation.title contains include.lookup"
+    "citation.title == include.lookup or citation.title contains include.lookup"
   | first
   | default: include
 %}
@@ -54,11 +54,19 @@
     </div>
 
     <div class="citation-details">
-      {{ citation.publisher | default: "[no publisher info]" }}
+      {% if citation.conference %}
+        {{ citation.conference }}
+      {% else %}
+        {{ citation.publisher | default: "[no publisher info]" }}
+      {% endif %}
       &nbsp; · &nbsp;
-      {{ citation.date | default: "[no date info]" | date: "%d %b %Y" }}
-      &nbsp; · &nbsp;
-      {{ citation.id | default: "[no id info]" }}
+      {% if citation.type == "To Appear" %}
+        To Appear
+      {% else %}
+        {{ citation.date | default: "[no date info]" | date: "%d %b %Y" }}
+        &nbsp; · &nbsp;
+        {{ citation.id | default: "[no id info]" }}
+      {% endif %}
     </div>
 
     {% if include.style == "rich" %}

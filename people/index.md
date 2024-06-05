@@ -1,7 +1,7 @@
 ---
-title: Team
+title: People
 nav:
-  order: 3
+  order: 2
   tooltip: About our team
   display: true
 ---
@@ -15,7 +15,7 @@ nav:
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 {% include list.html data="members" component="portrait" filters="role: phd" %}
-{% include list.html data="members" component="portrait" filters="role: ms" %}
+{% include list.html data="members" component="portrait" filters="role: grad" %}
 {% include list.html data="members" component="portrait" filters="role: undergrad" %}
 
 ## Alumni

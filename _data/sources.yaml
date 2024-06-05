@@ -1,0 +1,43 @@
+- id: https://doi.org/10.1145/3654927
+  conference: ACM SIGMOD 2024
+  
+- title: "Prophet: Optimizing LSM-Based Key-Value Store on ZNS SSDs with File Lifetime Prediction and Compaction Compensation"
+  authors:
+      - Gaoji Liu
+      - Chongzhuo Yang
+      - Qiaolin Yu
+      - Chang Guo
+      - Wen Xia
+      - Zhichao Cao
+  conference: MSST 2024
+  type: To Appear
+
+- title: "SAS-Cache: A Semantic-Aware Secondary Cache for LSM-based Key-Value Stores"
+  authors:
+      - Zhang Cao
+      - Chang Guo
+      - Ziyan Lv
+      - Anand Ananthabhotla
+      - Zhichao Cao
+  conference: MSST 2024
+  type: To Appear
+
+- title: "Can ZNS SSDs be Better Storage Devices for Persistent Cache?"
+  authors:
+      - Chongzhuo Yang
+      - Zhang Cao
+      - Chang Guo
+      - Ming Zhao
+      - Zhichao Cao
+  conference: ACM HotStorage 2024
+  type: To Appear
+
+- title: "Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?"
+  authors:
+      - Viraj Thakkar
+      - Madhumitha Sukumar
+      - Jiaxin Dai
+      - Kaushiki Singh
+      - Zhichao Cao
+  conference: ACM HotStorage 2024
+  type: To Appear
