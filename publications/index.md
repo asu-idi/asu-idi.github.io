@@ -1,9 +1,9 @@
 ---
 title: Publications
 nav:
-  order: 1
+  order: 3
   tooltip: Published works
-  display: false
+  display: true
 ---
 
 # {% include icon.html icon="fa-solid fa-file-circle-check" %}Publications
