@@ -63,8 +63,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: https://doi.org/10.1109/ICCD58817.2023.00050
-  title: 'SMRTS: A Performance and Cost-Effectiveness Optimized SSD-SMR Tiered File
-    System with Data Deduplication | IEEE Conference Publication | IEEE Xplore'
+  title: ''
   authors:
   - Zhichao Cao
   - Hao Wen
@@ -72,7 +71,7 @@
   - David H.C. Du
   publisher: ''
   date: '2023-11-06'
-  link: https://ieeexplore.ieee.org/document/10360958/
+  link: https://doi.org/10.1109/ICCD58817.2023.00050
   conference: IEEE ICCD 2023
   plugin: sources.py
   file: sources.yaml
