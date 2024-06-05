@@ -28,9 +28,9 @@ layout: default
   | array_filter
 %}
 
-{% capture search -%}
+<!-- {% capture search -%}
   publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
+{%- endcapture %} -->
 
 <!-- <p class="center">
   <a href="{{ search | relative_url }}">
@@ -38,14 +38,23 @@ layout: default
   </a>
 </p> -->
 
-{% capture search -%}
-  projects/?search={{ page.name }}
-{%- endcapture %}
 
-<!--
-<p class="center">
-  <a href="{{ search | relative_url }}">
-    See {{ page.name | default: page.title }}'s posts on the Blog page
-  </a>
-</p>
--->
+{% assign data = site.data.citations
+  | where_exp: "d", "d.authors contains page.title"
+  | sort: "date"
+  | reverse
+%}
+
+<h3 id="publications">Publications</h3>
+
+{% for d in data %}
+  {% include citation.html
+    authors=d.authors
+    date=d.date
+    title=d.title
+    type=d.type
+    conference=d.conference
+    url=d.url
+    id=d.id
+  %}
+{% endfor %}
