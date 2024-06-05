@@ -1,9 +1,10 @@
 # site properties and page defaults
 title: ASU-IDI
+show-title: false
 subtitle: The Intelligent Data Infrastructure Lab at Arizona State University
 description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
+header: images/background.png
+footer: images/background.png
 
 # site social media and other links
 links:
