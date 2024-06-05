@@ -43,6 +43,7 @@
   type: To Appear
 
 - id: https://doi.org/10.1109/ICCD58817.2023.00050
+  title: "SMRTS: A Performance and Cost-Effectiveness Optimized SSD-SMR Tiered File System with Data Deduplication"
   authors:
       - Zhichao Cao
       - Hao Wen
