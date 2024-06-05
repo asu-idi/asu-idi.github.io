@@ -17,7 +17,7 @@
   {% endif %}
 >
   <a href="{{ "/" | relative_url }}" class="home">
-    {% if logo %}
+    <!-- {% if logo %}
       <span class="logo">
         {% if svg %}
           {{ svg | file_read }}
@@ -25,9 +25,9 @@
           <img src="{{ logo | relative_url }}" alt="logo">
         {% endif %}
       </span>
-    {% endif %}
+    {% endif %} -->
     {% if site.logo-text != false %}
-      <span class="title" data-tooltip="Home">
+      <span class="title">
         {% if site.title and site.show-title != false %}
           <span>{{ site.title }}</span>
         {% endif %}
@@ -50,7 +50,6 @@
         {% if page.nav.display %}
           <a
             href="{{ page.dir | relative_url }}"
-            data-tooltip="{{ page.nav.tooltip }}"
           >
             {{ page.title }}
           </a>
