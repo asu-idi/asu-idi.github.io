@@ -5,7 +5,56 @@
   | data_filter: include.filters
 %}
 
+{% assign toAppear = data
+  | where_exp: "d", "d.type == 'To Appear'"
+  | sort: "name"
+  | reverse
+%}
+
+{% if toAppear.size > 1 %}
+  {{--}}<h3 id="To Appear">To Appear</h3>
+  {% assign data = data | sort: "date" | reverse %}
+{% endif %}
+
+{% for d in toAppear %}
+  {% assign style = d.style | default: include.style %}
+  {%
+    include {{ include.component | append: ".html" }}
+    author=d.author
+    authors=d.authors
+    buttons=d.buttons
+    caption=d.caption
+    content=d.content
+    date=d.date
+    description=d.description
+    excerpt=d.excerpt
+    height=d.height
+    icon=d.icon
+    id=d.id
+    image=d.image
+    last_modified_at=d.last_modified_at
+    link=d.link
+    lookup=d.lookup
+    name=d.name
+    publisher=d.publisher
+    conference=d.conference
+    repo=d.repo
+    role=d.role
+    slug=d.slug
+    style=style
+    subtitle=d.subtitle
+    tags=d.tags
+    text=d.text
+    title=d.title
+    tooltip=d.tooltip
+    type=d.type
+    url=d.url
+    width=d.width
+  %}
+{% endfor %}
+
 {% assign years = data
+  | where_exp: "d", "d.type != 'To Appear'"
   | group_by_exp: "d", "d.date | date: '%Y'"
   | sort: "name"
   | reverse

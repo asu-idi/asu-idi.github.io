@@ -4,7 +4,7 @@
 
 pi:
   icon: fa-solid fa-microscope
-  description: Principal Investigator
+  description: Assistant Professor <br> Director of ASU-IDI
 
 postdoc:
   icon: fa-solid fa-glasses

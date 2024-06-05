@@ -1,12 +1,12 @@
 ---
-title: Projects
+title: Research
 nav:
   order: 1
   tooltip: Our Ideas, Solutions, and Work
   display: true
 ---
 
-# {% include icon.html icon="fa-solid fa-cubes" %}Projects
+# {% include icon.html icon="fa-solid fa-cubes" %}Research
 
 {% include section.html %}
 
