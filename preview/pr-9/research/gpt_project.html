@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>LLM-Assisted Configuration Tuning for Log-Structured Merge-tree-based Key-Value Stores | ASU-IDI</title>
+
+<link rel="icon" href="/preview/pr-9/images/icon.png">
+
+<meta name="title" content="LLM-Assisted Configuration Tuning for Log-Structured Merge-tree-based Key-Value Stores">
+<meta name="description" content="The Intelligent Data Infrastructure Lab at Arizona State University. An engaging 1-3 sentence description of your lab.">
+
+<meta property="og:title" content="LLM-Assisted Configuration Tuning for Log-Structured Merge-tree-based Key-Value Stores">
+<meta property="og:site_title" content="ASU-IDI">
+<meta property="og:description" content="The Intelligent Data Infrastructure Lab at Arizona State University. An engaging 1-3 sentence description of your lab.">
+<meta property="og:url" content="">
+<meta property="og:image" content="/preview/pr-9/images/share.jpg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="LLM-Assisted Configuration Tuning for Log-Structured Merge-tree-based Key-Value Stores">
+<meta property="twitter:description" content="The Intelligent Data Infrastructure Lab at Arizona State University. An engaging 1-3 sentence description of your lab.">
+<meta property="twitter:url" content="">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/preview/pr-9/images/share.jpg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "LLM-Assisted Configuration Tuning for Log-Structured Merge-tree-based Key-Value Stores",
+    "description": "The Intelligent Data Infrastructure Lab at Arizona State University. An engaging 1-3 sentence description of your lab.",
+    "headline": "LLM-Assisted Configuration Tuning for Log-Structured Merge-tree-based Key-Value Stores",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-9/images/icon.png" }
+    },
+    "url": ""
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="/preview/pr-9/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/preview/pr-9/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-9/_styles/util.css" rel="stylesheet">
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/preview/pr-9/_scripts/anchors.js"></script>
+
+  <script src="/preview/pr-9/_scripts/dark-mode.js"></script>
+
+  <script src="/preview/pr-9/_scripts/fetch-tags.js"></script>
+
+  <script src="/preview/pr-9/_scripts/search.js"></script>
+
+  <script src="/preview/pr-9/_scripts/site-search.js"></script>
+
+  <script src="/preview/pr-9/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/preview/pr-9/images/background.png')" data-dark="true">
+  <a href="/preview/pr-9/" class="home">
+    
+      <span class="logo">
+        
+          
+            <img src="/preview/pr-9/images/logo.png" alt="logo">
+          
+        
+      </span>
+    
+    
+      <span class="title">
+        
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        
+          <a href="/preview/pr-9/research/">
+            Research
+          </a>
+        
+      
+    
+      
+        
+          <a href="/preview/pr-9/people/">
+            People
+          </a>
+        
+      
+    
+      
+        
+          <a href="/preview/pr-9/publications/">
+            Publications
+          </a>
+        
+      
+    
+      
+        
+          <a href="/preview/pr-9/education/">
+            Education
+          </a>
+        
+      
+    
+      
+        
+          <a href="/preview/pr-9/contact/">
+            Contact
+          </a>
+        
+      
+    
+      
+        
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - wrap each table in div to allow for scrolling
+  - filter out blank sections
+-->
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <h1 class="center">LLM-Assisted Configuration Tuning for Log-Structured Merge-tree-based Key-Value Stores</h1>
+
+<div class="post-info">
+  
+
+  
+  
+
+  
+
+  
+</div>
+
+
+  
+
+
+  <div class="tags" data-link="/preview/pr-9/research">
+    
+      <a href="/preview/pr-9/research?search=%22tag:%20LSM-KVS%22" class="tag" data-tooltip='Show items with the tag "LSM-KVS"'>
+        LSM-KVS
+      </a>
+    
+      <a href="/preview/pr-9/research?search=%22tag:%20Tuning%22" class="tag" data-tooltip='Show items with the tag "Tuning"'>
+        Tuning
+      </a>
+    
+      <a href="/preview/pr-9/research?search=%22tag:%20AI%22" class="tag" data-tooltip='Show items with the tag "AI"'>
+        AI
+      </a>
+    
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+<!-- A single line examplation of the project -->
+<p>Design and develop an LLM-assisted auto-tuning framework for Log-Structured Merge-tree-based Key-Value Stores (LSM-KVS) to achieve better performance.</p>
+
+<p>Log-Structured Merge-tree-based Key-Value Stores (LSM-KVS) are widely used in today’s IT infrastructure , and usually have over 100 options (e.g., HBase and RocksDB ) to tune performance for particular hardware (e.g., CPU, memory, and storage), software, and workloads (e.g., random, skewed, and read/write intensive) . However, tuning the LSM-KVS with appropriate configurations is always challenging, usually requiring IT professionals with LSM-KVS expertise to run hundreds of benchmarking evaluations. Existing related studies on LSM-KVS tuning solutions are still limited, lacking generality, adaptiveness to the versions and deployments. We believe the recent advancements of Large-Language-Models (LLMs) like OpenAI’s GPT-4 can be a promising solution to achieve LSM-KVS auto-tuning: 1) LLMs are trained using collections of LSM-KVS-related blog, publications, and almost all the open-sourced code, which makes the LLMs a real “expert” of LSM-KVS; 2) LLMs has the strong inferential capability to analyze the benchmarking results and achieve automatic and interactive adjustments for LSM-KVS on particular hardware and workloads. However, how to design the auto-tuning framework based on LLMs and benchmarking tools, how to generate appropriate prompts for LLMs, and how to calibrate the unexpected errors and wrong configurations are three main challenges to be addressed.</p>
+
+<p>We propose to design and develop an LLM-assisted auto-tuning framework as shown in Figure with the following workflow: 1) Use default options file and a collection of system and hardware information as initial input. 2) Use a feedback loop with the LLM API and create new prompts for LLM with option changes and the processed benchmarking results in the previous iterations. 3) The newly generated options from LLM are calibrated (cleaned and corrected) for a new round of benchmarking; And 4) after several iterations, the benchmarking results have converged and it generates the final optimized option configurations. Note that the whole process is automatically deployed and executed without human intervention. We implemented the framework prototype on RocksDB v8.8.1 and OpenAI’s GPT-4-1106 model, and open-sourced. Our preliminary evaluations show that with 5 iterations of auto-tuning, our framework achieves up to 20% of throughput improvement compared with default configurations.</p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+<div class="post-nav">
+  <span>
+    
+  </span>
+  <span>
+    
+  </span>
+</div>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/preview/pr-9/images/background.png')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:zhichao.cao@asu.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=VI4vH9UAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/asu-idi" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2024
+    ASU-IDI
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      LWT
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>
