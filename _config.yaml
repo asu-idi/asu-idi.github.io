@@ -31,9 +31,9 @@ defaults:
       type: "posts"
     values:
       layout: post
-  # markdown files in /_project_data
+  # markdown files in /_research_data
   - scope:
-      type: "projects"
+      type: "research"
     values:
       layout: post
 
@@ -44,8 +44,8 @@ collections:
   # generate page for each post
   posts:
     output: true
-  # generate page for each project post
-  projects:
+  # generate page for each research post
+  research:
     output: true
 
 # jekyll plugins
