@@ -39,21 +39,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>People | ASU-IDI</title>
+<title>LSM-based Key-Value Store Redesign for Disaggregated Infrastructure | ASU-IDI</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="People">
+<meta name="title" content="LSM-based Key-Value Store Redesign for Disaggregated Infrastructure">
 <meta name="description" content="The Intelligent Data Infrastructure Lab at Arizona State University. An engaging 1-3 sentence description of your lab.">
 
-<meta property="og:title" content="People">
+<meta property="og:title" content="LSM-based Key-Value Store Redesign for Disaggregated Infrastructure">
 <meta property="og:site_title" content="ASU-IDI">
 <meta property="og:description" content="The Intelligent Data Infrastructure Lab at Arizona State University. An engaging 1-3 sentence description of your lab.">
 <meta property="og:url" content="">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="People">
+<meta property="twitter:title" content="LSM-based Key-Value Store Redesign for Disaggregated Infrastructure">
 <meta property="twitter:description" content="The Intelligent Data Infrastructure Lab at Arizona State University. An engaging 1-3 sentence description of your lab.">
 <meta property="twitter:url" content="">
 <meta property="twitter:card" content="summary_large_image">
@@ -69,9 +69,9 @@
     
       "@type": "WebSite",
     
-    "name": "People",
+    "name": "LSM-based Key-Value Store Redesign for Disaggregated Infrastructure",
     "description": "The Intelligent Data Infrastructure Lab at Arizona State University. An engaging 1-3 sentence description of your lab.",
-    "headline": "People",
+    "headline": "LSM-based Key-Value Store Redesign for Disaggregated Infrastructure",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -278,58 +278,6 @@
     <link href="/_styles/util.css" rel="stylesheet">
   
 
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 <!-- include all css in styles folder -->
 
@@ -459,8 +407,34 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="team">
-<i class="icon fa-solid fa-users"></i>Team</h1>
+    <h1 class="center">LSM-based Key-Value Store Redesign for Disaggregated Infrastructure</h1>
+
+<div class="post-info">
+  
+
+  
+  
+
+  
+
+  
+</div>
+
+
+  
+
+
+  <div class="tags" data-link="/research">
+    
+      <a href="/research?search=%22tag:%20LSM-KVS%22" class="tag" data-tooltip='Show items with the tag "LSM-KVS"'>
+        LSM-KVS
+      </a>
+    
+      <a href="/research?search=%22tag:%20Disaggregation%22" class="tag" data-tooltip='Show items with the tag "Disaggregation"'>
+        Disaggregation
+      </a>
+    
+  </div>
   </section>
 
   
@@ -474,105 +448,50 @@
   size: ;
 -->
 
-<h2 id="current-members">Current Members</h2>
 
-<div class="portrait-wrapper">
-  <a href="/members/zhichao-cao.html" class="portrait" data-style="" aria-label="Zhichao Cao">
-    <img src="/images/members/zcao57.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+<p>LSM-KVS (e.g., RocksDB) is a key component in today’s data infrastructure for storing unstructured data. Initially designed for legacy monolithic servers, it now faces issues like resource wasting and low scalability as workloads grow. Deploying LSM-KVS in a disaggregated infrastructure is essential for better performance and resource management. Our vision is to fully restructure LSM-KVS, decouple the components, and execute them at different disaggregated compute, memory, and storage nodes for better performance, resource utilization, and management capability. Remote compaction, remote flush, and offloading the block cache are just the beginning.</p>
 
+<p>Transitioning LSM-KVS-based systems to a disaggregated infrastructure involves significant changes and improvements. By decoupling the components of LSM-KVS and running them on separate compute, memory, and storage nodes, it is possible to enhance performance and scalability. This approach allows for better resource allocation, more efficient load distribution, and improved overall system management. Remote compaction, remote flush, and offloading the block cache are initial steps in this restructuring process.</p>
+
+<ul>
+  <li>Remote Compaction: Moving the compaction process to a remote node can free up local resources, reducing bottlenecks and improving system performance.</li>
+  <li>Remote Flush: Performing flush operations remotely can enhance data management and improve the efficiency of storage utilization.</li>
+  <li>Offloading the Block Cache: By offloading the block cache to a remote node, it is possible to optimize memory usage and improve data retrieval times.</li>
+</ul>
+
+<p>We envision a future where LSM-KVS is fully restructured and optimized for disaggregated infrastructure, enabling more efficient and scalable data storage solutions. By decoupling the components of LSM-KVS and distributing them across different nodes, we can address the limitations of traditional monolithic server-based systems and unlock new possibilities for data management and analysis.</p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+<div class="post-nav">
+  <span>
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Zhichao Cao
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-microscope"></i>
-            <span>Assistant Professor <br> Director of ASU-IDI</span>
-          </span>
-        
-      </span>
+      <i class="icon fa-solid fa-angle-left"></i> Previous topic<br>
+      <a href="/research/llm_optimization">
+        System Optimizations for LLM Inferencing
+      </a>
     
-  </a>
+  </span>
+  <span>
+    
+      Next topic <i class="icon fa-solid fa-angle-right"></i><br>
+      <a href="/research/query_optimize.html">
+        Novel Indexing to Optimize Database and Data Analytic Queries
+      </a>
+    
+  </span>
 </div>
-
-<div class="portrait-wrapper">
-  <a href="/members/chang-guo.html" class="portrait" data-style="" aria-label="Chang Guo">
-    <img src="/images/photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Chang Guo
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-graduation-cap"></i>
-            <span>PhD Student</span>
-          </span>
-        
-      </span>
-    
-  </a>
-</div>
-
-<div class="portrait-wrapper">
-  <a href="/members/qi-lin.html" class="portrait" data-style="" aria-label="Qi Lin">
-    <img src="/images/members/qilin.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Qi Lin
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-graduation-cap"></i>
-            <span>PhD Student</span>
-          </span>
-        
-      </span>
-    
-  </a>
-</div>
-
-<div class="portrait-wrapper">
-  <a href="/members/viraj-thakkar.html" class="portrait" data-style="" aria-label="Viraj Thakkar">
-    <img src="/images/members/viraj.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Viraj Thakkar
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-graduation-cap"></i>
-            <span>PhD Student</span>
-          </span>
-        
-      </span>
-    
-  </a>
-</div>
-
-<h2 id="alumni">Alumni</h2>
   </section>
 
 

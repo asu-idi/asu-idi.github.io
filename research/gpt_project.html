@@ -434,8 +434,8 @@
         Tuning
       </a>
     
-      <a href="/research?search=%22tag:%20AI%22" class="tag" data-tooltip='Show items with the tag "AI"'>
-        AI
+      <a href="/research?search=%22tag:%20LLM%22" class="tag" data-tooltip='Show items with the tag "LLM"'>
+        LLM
       </a>
     
   </div>
@@ -453,12 +453,16 @@
 -->
 
 
-<!-- A single line examplation of the project -->
-<p>Design and develop an LLM-assisted auto-tuning framework for Log-Structured Merge-tree-based Key-Value Stores (LSM-KVS) to achieve better performance.</p>
+<p>Storage and Memory systems have undergone a variety of modifications and transformations, and are widely used in today’s IT infrastructure. These systems usually have over 100 options (e.g. HBase and RocksDB) to tune performance for particular hardware (e.g., CPU, Memory, and Storage), software, and workloads (e.g., random, skewed, and read/write intensive). ASU-IDI focuses on developing an LLM-assisted auto-tuning framework for storage and memory systems to enhance performance.</p>
 
-<p>Log-Structured Merge-tree-based Key-Value Stores (LSM-KVS) are widely used in today’s IT infrastructure , and usually have over 100 options (e.g., HBase and RocksDB ) to tune performance for particular hardware (e.g., CPU, memory, and storage), software, and workloads (e.g., random, skewed, and read/write intensive) . However, tuning the LSM-KVS with appropriate configurations is always challenging, usually requiring IT professionals with LSM-KVS expertise to run hundreds of benchmarking evaluations. Existing related studies on LSM-KVS tuning solutions are still limited, lacking generality, adaptiveness to the versions and deployments. We believe the recent advancements of Large-Language-Models (LLMs) like OpenAI’s GPT-4 can be a promising solution to achieve LSM-KVS auto-tuning: 1) LLMs are trained using collections of LSM-KVS-related blog, publications, and almost all the open-sourced code, which makes the LLMs a real “expert” of LSM-KVS; 2) LLMs has the strong inferential capability to analyze the benchmarking results and achieve automatic and interactive adjustments for LSM-KVS on particular hardware and workloads. However, how to design the auto-tuning framework based on LLMs and benchmarking tools, how to generate appropriate prompts for LLMs, and how to calibrate the unexpected errors and wrong configurations are three main challenges to be addressed.</p>
+<p>Tuning Storage and Memory systems Log-Structured Merge-tree-based Key-Value Stores (LSM-KVS) like RocksDB and HBase with appropriate configurations is challenging, usually requiring IT professionals with appropriate expertise to run hundreds of benchmarking evaluations. Existing related studies on tuning solutions are still limited, lacking generality, adaptiveness to the versions and deployments. We believe the recent advancements of Large-Language-Models (LLMs) like OpenAI’s GPT-4 can be a promising solution to achieve auto-tuning:</p>
 
-<p>We propose to design and develop an LLM-assisted auto-tuning framework as shown in Figure with the following workflow: 1) Use default options file and a collection of system and hardware information as initial input. 2) Use a feedback loop with the LLM API and create new prompts for LLM with option changes and the processed benchmarking results in the previous iterations. 3) The newly generated options from LLM are calibrated (cleaned and corrected) for a new round of benchmarking; And 4) after several iterations, the benchmarking results have converged and it generates the final optimized option configurations. Note that the whole process is automatically deployed and executed without human intervention. We implemented the framework prototype on RocksDB v8.8.1 and OpenAI’s GPT-4-1106 model, and open-sourced. Our preliminary evaluations show that with 5 iterations of auto-tuning, our framework achieves up to 20% of throughput improvement compared with default configurations.</p>
+<ol>
+  <li>LLMs are trained using collections of LSM-KVS-related blog, publications, and almost all the open-sourced code, which makes the LLMs a real “expert”;</li>
+  <li>LLMs has the strong inferential capability to analyze the benchmarking results and achieve automatic and interactive adjustments on particular hardware and workloads.</li>
+</ol>
+
+<p>However, how to design the auto-tuning framework based on LLMs and benchmarking tools, how to generate appropriate prompts for LLMs, and how to calibrate the unexpected errors and wrong configurations are three main challenges to be addressed.</p>
   </section>
 
   
@@ -476,8 +480,18 @@
 <div class="post-nav">
   <span>
     
+      <i class="icon fa-solid fa-angle-left"></i> Previous topic<br>
+      <a href="/research/cache_zns.html">
+        Designing and Optimizing Cache System for New Hardware and Infrastructure
+      </a>
+    
   </span>
   <span>
+    
+      Next topic <i class="icon fa-solid fa-angle-right"></i><br>
+      <a href="/research/llm_optimization">
+        System Optimizations for LLM Inferencing
+      </a>
     
   </span>
 </div>
@@ -548,7 +562,7 @@
     © 2024
     ASU-IDI
       |   Built with
-    <a href="https://github.com/greenelab/lab-website-template">
+    <a href="https://github.com/greenelab/lab-website-template" target="_blank">
       LWT
     </a>
   </div>
