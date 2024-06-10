@@ -11,6 +11,7 @@
       {% if citation.link %}
         href="{{ citation.link | relative_url }}"
       {% endif %}
+      target="_blank"
       class="citation-image"
       aria-label="{{ citation.title | default: "citation link" }}"
     >
@@ -31,6 +32,7 @@
       {% if citation.link %}
         href="{{ citation.link | relative_url }}"
       {% endif %}
+      target="_blank"
       class="citation-title"
     >
       {{ citation.title | default: "[no title info]" }}
