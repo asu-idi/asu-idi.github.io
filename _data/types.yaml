@@ -236,3 +236,10 @@ package:
   icon: fa-solid fa-box
   text: Package
   tooltip: Package
+
+# other
+
+download:
+  icon: fa-solid fa-file-download
+  text: Download
+  tooltip: Download
