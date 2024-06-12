@@ -49,6 +49,9 @@
   - Zhichao Cao
   conference: ACM HotStorage 2024
   type: To Appear
+  buttons:
+  - type: download
+    link: ./../publications/files/HS24_ZNS_PersistentCache.pdf
   plugin: sources.py
   file: sources.yaml
 - title: Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?
@@ -60,6 +63,9 @@
   - Zhichao Cao
   conference: ACM HotStorage 2024
   type: To Appear
+  buttons:
+  - type: download
+    link: ./../publications/files/HS24_GPT_Project.pdf
   plugin: sources.py
   file: sources.yaml
 - id: https://doi.org/10.1109/ICCD58817.2023.00050
