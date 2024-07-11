@@ -1,5 +1,65 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: https://doi.org/10.1145/3655038.3665946
+  title: Can ZNS SSDs be Better Storage Devices for Persistent Cache?
+  authors:
+  - Chongzhuo Yang
+  - Zhang Cao
+  - Chang Guo
+  - Ming Zhao
+  - Zhichao Cao
+  publisher: Proceedings of the 16th ACM Workshop on Hot Topics in Storage and File
+    Systems
+  date: '2024-07-08'
+  link: https://doi.org/10.1145/3655038.3665946
+  conference: ACM HotStorage 2024
+  buttons:
+  - type: download
+    link: ./../publications/files/HS24_ZNS_PersistentCache.pdf
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1145/3655038.3665954
+  title: Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?
+  authors:
+  - Viraj Thakkar
+  - Madhumitha Sukumar
+  - Jiaxin Dai
+  - Kaushiki Singh
+  - Zhichao Cao
+  publisher: Proceedings of the 16th ACM Workshop on Hot Topics in Storage and File
+    Systems
+  date: '2024-07-08'
+  link: https://doi.org/10.1145/3655038.3665954
+  conference: ACM HotStorage 2024
+  buttons:
+  - type: download
+    link: ./../publications/files/HS24_GPT_Project.pdf
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Prophet: Optimizing LSM-Based Key-Value Store on ZNS SSDs with File Lifetime
+    Prediction and Compaction Compensation'
+  authors:
+  - Gaoji Liu
+  - Chongzhuo Yang
+  - Qiaolin Yu
+  - Chang Guo
+  - Wen Xia
+  - Zhichao Cao
+  conference: MSST 2024
+  date: '2024-06-03'
+  plugin: sources.py
+  file: sources.yaml
+- title: 'SAS-Cache: A Semantic-Aware Secondary Cache for LSM-based Key-Value Stores'
+  authors:
+  - Zhang Cao
+  - Chang Guo
+  - Ziyan Lv
+  - Anand Ananthabhotla
+  - Zhichao Cao
+  conference: MSST 2024
+  date: '2024-06-03'
+  plugin: sources.py
+  file: sources.yaml
 - id: https://doi.org/10.1145/3654927
   title: 'CaaS-LSM: Compaction-as-a-Service for LSM-based Key-Value Stores in Storage
     Disaggregated Infrastructure'
@@ -14,58 +74,6 @@
   date: '2024-05-30'
   link: https://doi.org/10.1145/3654927
   conference: ACM SIGMOD 2024
-  plugin: sources.py
-  file: sources.yaml
-- title: 'Prophet: Optimizing LSM-Based Key-Value Store on ZNS SSDs with File Lifetime
-    Prediction and Compaction Compensation'
-  authors:
-  - Gaoji Liu
-  - Chongzhuo Yang
-  - Qiaolin Yu
-  - Chang Guo
-  - Wen Xia
-  - Zhichao Cao
-  conference: MSST 2024
-  type: To Appear
-  plugin: sources.py
-  file: sources.yaml
-- title: 'SAS-Cache: A Semantic-Aware Secondary Cache for LSM-based Key-Value Stores'
-  authors:
-  - Zhang Cao
-  - Chang Guo
-  - Ziyan Lv
-  - Anand Ananthabhotla
-  - Zhichao Cao
-  conference: MSST 2024
-  type: To Appear
-  plugin: sources.py
-  file: sources.yaml
-- title: Can ZNS SSDs be Better Storage Devices for Persistent Cache?
-  authors:
-  - Chongzhuo Yang
-  - Zhang Cao
-  - Chang Guo
-  - Ming Zhao
-  - Zhichao Cao
-  conference: ACM HotStorage 2024
-  type: To Appear
-  buttons:
-  - type: download
-    link: ./../publications/files/HS24_ZNS_PersistentCache.pdf
-  plugin: sources.py
-  file: sources.yaml
-- title: Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?
-  authors:
-  - Viraj Thakkar
-  - Madhumitha Sukumar
-  - Jiaxin Dai
-  - Kaushiki Singh
-  - Zhichao Cao
-  conference: ACM HotStorage 2024
-  type: To Appear
-  buttons:
-  - type: download
-    link: ./../publications/files/HS24_GPT_Project.pdf
   plugin: sources.py
   file: sources.yaml
 - id: https://doi.org/10.1109/ICCD58817.2023.00050

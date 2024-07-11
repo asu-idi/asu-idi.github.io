@@ -1,6 +1,15 @@
-- id: https://doi.org/10.1145/3654927
-  conference: ACM SIGMOD 2024
-  
+- id: https://doi.org/10.1145/3655038.3665946
+  conference: ACM HotStorage 2024
+  buttons:
+    - type: download
+      link: ./../publications/files/HS24_ZNS_PersistentCache.pdf
+
+- id: https://doi.org/10.1145/3655038.3665954
+  conference: ACM HotStorage 2024
+  buttons:
+    - type: download
+      link: ./../publications/files/HS24_GPT_Project.pdf
+
 - title: "Prophet: Optimizing LSM-Based Key-Value Store on ZNS SSDs with File Lifetime Prediction and Compaction Compensation"
   authors:
     - Gaoji Liu
@@ -10,7 +19,7 @@
     - Wen Xia
     - Zhichao Cao
   conference: MSST 2024
-  type: To Appear
+  date: '2024-06-03'
 
 - title: "SAS-Cache: A Semantic-Aware Secondary Cache for LSM-based Key-Value Stores"
   authors:
@@ -20,34 +29,10 @@
     - Anand Ananthabhotla
     - Zhichao Cao
   conference: MSST 2024
-  type: To Appear
+  date: '2024-06-03'
 
-- title: "Can ZNS SSDs be Better Storage Devices for Persistent Cache?"
-  authors:
-    - Chongzhuo Yang
-    - Zhang Cao
-    - Chang Guo
-    - Ming Zhao
-    - Zhichao Cao
-  conference: ACM HotStorage 2024
-  type: To Appear
-  buttons:
-    - type: download
-      link: ./../publications/files/HS24_ZNS_PersistentCache.pdf
-
-
-- title: "Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?"
-  authors:
-    - Viraj Thakkar
-    - Madhumitha Sukumar
-    - Jiaxin Dai
-    - Kaushiki Singh
-    - Zhichao Cao
-  conference: ACM HotStorage 2024
-  type: To Appear
-  buttons:
-    - type: download
-      link: ./../publications/files/HS24_GPT_Project.pdf
+- id: https://doi.org/10.1145/3654927
+  conference: ACM SIGMOD 2024
 
 - id: https://doi.org/10.1109/ICCD58817.2023.00050
   title: "SMRTS: A Performance and Cost-Effectiveness Optimized SSD-SMR Tiered File System with Data Deduplication"
