@@ -3,7 +3,9 @@ name: Viraj Thakkar
 image: images/members/viraj.jpg
 role: phd
 links:
+  linkedin: veedata
   email: viraj.online@asu.edu
+  website: https://veedata.github.io
   github: veedata
 ---
 
