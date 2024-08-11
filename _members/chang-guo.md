@@ -1,9 +1,11 @@
 ---
 name: Chang Guo
-image: images/photo.jpg
+image: images/members/Chang-2024-P13648.jpg
 role: phd
 links:
+  email: cguo51@asu.edu
   github: change72
+  linkedin: chang-guo-627548148
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Chang Guo is a Ph.D. student at the Intelligent Data Infrastructure Lab at Arizona State University. His research focuses on key-value stores, caching, indexing, and tracing in high-performance computing (HPC) environments.
