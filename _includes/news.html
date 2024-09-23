@@ -5,6 +5,19 @@
   %}
   {% include icon.html icon=icon %}
   <div class="alert-content">
-    {{ include.date | append: ": " | append: include.content }}
+    <div class="alert-row">
+      <div class="alert-cell alert-date">{{ include.date }}</div>
+      
+      <div class="alert-cell alert-type">
+          {% if include.type == "news-paper-accepted" %}  [Paper]
+          {% elsif include.type == "news-award" %}        [Award]
+          {% elsif include.type == "news-info" %}         [Update]
+          {% endif %}
+      </div>
+    </div>
+    
+    <div class="alert-content-text">
+      {{ include.content }}
+    </div>
   </div>
 </div>

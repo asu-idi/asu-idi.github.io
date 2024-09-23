@@ -14,7 +14,7 @@ The Intelligent Data Infrastructure (IDI) research lab delves into database syst
   | reverse
 %}
 
-{% for item in news limit:5 %}
+{% for item in news limit:10 %}
 {%
   include news.html
   date=item.date
