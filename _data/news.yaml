@@ -1,3 +1,7 @@
+- date: 2024-08-15
+  type: news-award
+  title: Received an award from the OpenAI Researcher Access Program to further explore "LLMs for storage and database system auto-configuring and auto-tuning"
+
 - date: 2024-07-08
   type: news-award
   title: "Best Paper Award at HotStorage 2024: 'Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?'"
