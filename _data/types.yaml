@@ -168,6 +168,10 @@ news-general:
   icon: fa-solid fa-newspaper
   color: "#0ea5e9"
 
+news-talk:
+  icon: fa-solid fa-microphone
+  color: "#0ea5e9"
+
 # publications
 
 paper:
