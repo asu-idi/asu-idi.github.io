@@ -1,9 +1,9 @@
 ---
 ---
 
-<h1 style="text-align:center"> Exploring frontiers in database, storage, and data infrastructure </h1>
+<h1 style="text-align:center"> Exploring Frontiers of Intelligent Data Infrastructure </h1>
 
-The Intelligent Data Infrastructure (IDI) research lab delves into database systems, storage technologies, and next-generation data infrastructure. We tackle emerging challenges, designing cutting-edge solutions to advance data management and analysis in today's dynamic digital landscape. Our work spans a wide range of topics, including distributed systems, cloud computing, machine learning, and data analytics. We are passionate about pushing the boundaries of data infrastructure.
+Data is the gold of the 21st century, which reflects, influences, and empowers our daily lives and changes the whole world. As modern data generation continues to surge due to the explosion of social media, e-business, big data, AR/VR, and all the applications, driven by new technologies like machine learning (ML), artificial intelligence (AI), big data, cloud computing, and the Internet of Things (IoT), our infrastructure to store, manage, and process this data must continuously evolve. Our research vision is to advance the foundation of data infrastructure, including storage systems, memory systems, and database systems, by creating Resilient, Adaptive, Intelligent, Sustainable, and Efficient (RAISE) systems that not only accommodate the scale of future data but also enable seamless integration with new technologies and hardware, such as disaggregated infrastructure and emerging storage/memory devices, new applications such as large language models and scientific analysis, and urgent need for sustainable and cost-effective system designs. To achieve the research goal of RAISE, our lab mainly focuses on the system-level innovations combined with the cross-stack co-designs. We are passionate about pushing the boundaries of data infrastructure.
 
 {% include section.html %}
 
