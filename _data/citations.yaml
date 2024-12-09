@@ -125,7 +125,7 @@
   file: sources.yaml
 - id: https://doi.org/10.1109/TC.2024.3485238
   title: 'CPI: A Collaborative Partial Indexing Design for Large-Scale Deduplication
-    Systems | IEEE Journals & Magazine | IEEE Xplore'
+    Systems'
   authors:
   - Yixun Wei
   - Zhichao Cao
@@ -153,5 +153,6 @@
   publisher: Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles
   date: '2024-11-15'
   link: https://doi.org/10.1145/3694715.3695953
+  conference: Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles
   plugin: sources.py
   file: sources.yaml
