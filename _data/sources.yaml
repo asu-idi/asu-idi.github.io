@@ -61,3 +61,13 @@
 
 - id: https://doi.org/10.1145/3653924.3653935
   conference: ACM DSDE 2024
+
+- id: https://doi.org/10.1109/TC.2024.3485238
+  conference: IEEE Transactions on Computers
+  date: '2024-12-08'
+  authors:
+    - Yixun Wei
+    - Zhichao Cao
+    - David H.C. Du
+
+- id: https://doi.org/10.1145/3694715.3695953
