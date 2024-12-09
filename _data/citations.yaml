@@ -123,3 +123,35 @@
   conference: ACM DSDE 2024
   plugin: sources.py
   file: sources.yaml
+- id: https://doi.org/10.1109/TC.2024.3485238
+  title: 'CPI: A Collaborative Partial Indexing Design for Large-Scale Deduplication
+    Systems | IEEE Journals & Magazine | IEEE Xplore'
+  authors:
+  - Yixun Wei
+  - Zhichao Cao
+  - David H.C. Du
+  publisher: ''
+  date: '2024-12-08'
+  link: https://ieeexplore.ieee.org/document/10747694/
+  conference: IEEE Transactions on Computers
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1145/3694715.3695953
+  title: 'BIZA: Design of Self-Governing Block-Interface ZNS AFA for Endurance and
+    Performance'
+  authors:
+  - Shushu Yi
+  - Shaocong Sun
+  - Li Peng
+  - Yingbo Sun
+  - Ming-Chang Yang
+  - Zhichao Cao
+  - Qiao Li
+  - Myoungsoo Jung
+  - Ke Zhou
+  - Jie Zhang
+  publisher: Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles
+  date: '2024-11-15'
+  link: https://doi.org/10.1145/3694715.3695953
+  plugin: sources.py
+  file: sources.yaml
