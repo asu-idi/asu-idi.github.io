@@ -101,14 +101,7 @@
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
 <link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
-<!-- <link 
-  href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.2/dist/css/glide.core.min.css" 
-  rel="stylesheet"
-/> -->
-<!-- <link 
-  href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css"
-  rel="stylesheet" 
-/> -->
+<link href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.2/dist/css/glide.core.min.css" rel="stylesheet">
 
 <!-- include all sass in styles folder -->
 
@@ -350,8 +343,7 @@
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
 <script src="https://unpkg.com/tippy.js@6" defer></script>
 <script src="https://unpkg.com/mark.js@8" defer></script>
-<!-- <script src="https://unpkg.com/@glidejs/glide@3"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script> -->
+<script src="https://unpkg.com/@glidejs/glide@3"></script>
 
 <!-- include all js in scripts folder -->
 
@@ -696,39 +688,54 @@ Recruiting 1-2 fully funded Ph.D. students for Fall 2025, focusing on research a
     </a>
   </div>
 
-<!-- Dummy Code using Glide.js -->
-<!-- <div class="glide">
-  <div class="glide__track" data-glide-el="track">
-    <ul class="glide__slides">
-      <li class="glide__slide">0</li>
-      <li class="glide__slide">1</li>
-      <li class="glide__slide">2</li>
-    </ul>
-  </div>
+<h2 id="gallery">Gallery</h2>
+
+<div class="glide">
+    <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+            
+            
+              <li class="glide__slide">
+                <img src="/images/main-carousel/IMG_9786%202.JPG" alt="Gallery Image">
+              </li>
+            
+              <li class="glide__slide">
+                <img src="/images/main-carousel/IMG_9801.jpg" alt="Gallery Image">
+              </li>
+            
+              <li class="glide__slide">
+                <img src="/images/main-carousel/IMG_9831.JPG" alt="Gallery Image">
+              </li>
+            
+              <li class="glide__slide">
+                <img src="/images/main-carousel/IMG_9860.JPG" alt="Gallery Image">
+              </li>
+            
+        </ul>
+    </div>
 </div>
 
 <script>
-  new Glide('.glide').mount()
-</script> -->
+    new Glide('.glide', {
+        type: 'carousel',
+        perView: 2,
+        autoplay: 5000,
+        gap: 10
+    }).mount();
+</script>
 
-<!-- Dummy Code using Glider.js -->
-<!-- <div class="glider">
-  <div> 1 </div>
-  <div> 2 </div>
-  <div> 3 </div>
-</div>
-
-<script>
-  new Glider(document.querySelector('.glider'), {
-    slidesToShow: 1,
-    dots: '#dots',
-    draggable: true,
-    arrows: {
-      prev: '.glider-prev',
-      next: '.glider-next'
+<style>
+    .glide__slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-  });
-</script> -->
+
+    .glide__slide img {
+        width: 100%;
+        height: auto;
+    }
+</style>
   </section>
 
 
