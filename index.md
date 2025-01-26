@@ -35,37 +35,6 @@ Recruiting 1-2 fully funded Ph.D. students for Fall 2025, focusing on research a
   style="bare"
 %}
 
-<!-- Dummy Code using Glide.js -->
-<!-- <div class="glide">
-  <div class="glide__track" data-glide-el="track">
-    <ul class="glide__slides">
-      <li class="glide__slide">0</li>
-      <li class="glide__slide">1</li>
-      <li class="glide__slide">2</li>
-    </ul>
-  </div>
-</div>
+## Gallery
 
-<script>
-  new Glide('.glide').mount()
-</script> -->
-
-
-<!-- Dummy Code using Glider.js -->
-<!-- <div class="glider">
-  <div> 1 </div>
-  <div> 2 </div>
-  <div> 3 </div>
-</div>
-
-<script>
-  new Glider(document.querySelector('.glider'), {
-    slidesToShow: 1,
-    dots: '#dots',
-    draggable: true,
-    arrows: {
-      prev: '.glider-prev',
-      next: '.glider-next'
-    }
-  });
-</script> -->
+{% include grid-gallery.html %}
