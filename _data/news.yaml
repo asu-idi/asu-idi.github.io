@@ -1,6 +1,8 @@
 - date: 2024-12-31
   type: news-award
-  title: NSF CAREER Award for proposal "Towards Disaggregated Persistent Key-Value Stores" ($730,883). Thank you NSF!
+  title: NSF CAREER Award for proposal "Towards Disaggregated Persistent Key-Value Stores" ($730,883). Thank you NSF!<br>
+          <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2443219&HistoricalAwards=false">NSF Award Link</a>, 
+          <a href="https://www.newswise.com/articles/artificial-intelligence-drives-need-for-real-data-storage-innovations">NewsWise Article</a>
 
 - date: 2024-12-08
   type: news-paper-accepted
@@ -8,7 +10,8 @@
 
 - date: 2024-12-08
   type: news-award
-  title: Decoupled-LSM (<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2412436&HistoricalAwards=false">Link</a>) is awarded by NSF. Thanks to the NSF!
+  title: Decoupled-LSM is awarded by NSF. Thanks to the NSF!<br>
+          <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2412436&HistoricalAwards=false">NSF Award Link</a>
 
 - date: 2024-12-08
   type: news-paper-accepted
