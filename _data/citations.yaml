@@ -132,7 +132,7 @@
   - David H.C. Du
   publisher: ''
   date: '2024-12-08'
-  link: https://ieeexplore.ieee.org/document/10747694/
+  link: https://doi.org/10.1109/TC.2024.3485238
   conference: IEEE Transactions on Computers
   plugin: sources.py
   file: sources.yaml
