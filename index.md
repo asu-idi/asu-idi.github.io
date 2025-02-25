@@ -22,6 +22,7 @@ Recruiting 1-2 fully funded Ph.D. students for Fall 2025, focusing on research a
   include news.html
   date=item.date
   type=item.type
+  subtype=item.subtype
   content=item.title
 %}
 {% endfor %}
