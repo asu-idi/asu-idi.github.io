@@ -1,5 +1,6 @@
 - date: 2024-12-31
   type: news-award
+  subtype: Grant
   title: NSF CAREER Award for proposal "Towards Disaggregated Persistent Key-Value Stores" ($730,883). Thank you NSF!<br>
           <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2443219&HistoricalAwards=false">NSF Award Link</a>, 
           <a href="https://news.asu.edu/20250128-science-and-technology-artificial-intelligence-drives-need-real-data-storage-innovations">ASU News</a>, 
@@ -7,39 +8,48 @@
 
 - date: 2024-12-08
   type: news-paper-accepted
+  subtype: SOSP 2024
   title: "BIZA: Design of Self-Governing Block-Interface ZNS AFA for Endurance and Performance has accepted by ACM SOSP 2024"
 
 - date: 2024-12-08
   type: news-award
+  subtype: Grant
   title: Decoupled-LSM is awarded by NSF. Thanks to the NSF!<br>
           <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2412436&HistoricalAwards=false">NSF Award Link</a>
 
 - date: 2024-12-08
   type: news-paper-accepted
+  subtype: IEEE Transactions on Computers
   title: "CPI: A Collaborative Partial Indexing Design for Large-Scale Deduplication Systems was accepted by IEEE Transactions on Computers"
 
 - date: 2024-08-15
   type: news-award
+  subtype: Grant
   title: Received an award from the OpenAI Researcher Access Program to further explore "LLMs for storage and database system auto-configuring and auto-tuning"
 
 - date: 2024-07-08
   type: news-award
+  subtype: Best Paper
   title: "Best Paper Award at HotStorage 2024: 'Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?'"
 
 - date: 2024-05-13
   type: news-paper-accepted
+  subtype: HotStorage 2024
   title: "2 Papers Accepted to be presented at ACM HotStorage 2024"
 
 - date: 2024-03-19
   type: news-paper-accepted
+  subtype: MSST 2024
   title: "2 Papers Accepted to be presented at MSST 2024"
 
 - date: 2024-02-23
   type: news-paper-accepted
+  subtype: SIGMOD 2024
   title: "1 Paper Accepted to be presented at ACM SIGMOD 2024"
 
 - date: 2024-01-23
   type: news-paper-accepted
+  subtype: FAST 2024
   title: "1 Project Accepted for WIP and Poster at FAST 2024"
 
 - date: 2023-12-01

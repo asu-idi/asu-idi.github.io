@@ -9,12 +9,19 @@
       <div class="alert-cell alert-date">{{ include.date }}</div>
       
       <div class="alert-cell alert-type">
-          {% if include.type == "news-paper-accepted" %}  [Paper]
-          {% elsif include.type == "news-award" %}        [Award]
-          {% elsif include.type == "news-info" %}         [Update]
-          {% elsif include.type == "news-talk" %}         [Talk]
-          {% endif %}
+        {% if include.type == "news-paper-accepted" %}  [Paper]
+        {% elsif include.type == "news-award" %}        [Award]
+        {% elsif include.type == "news-info" %}         [Update]
+        {% elsif include.type == "news-talk" %}         [Talk]
+        {% endif %}
       </div>
+      
+      <div class="alert-cell alert-subtype">
+        {% if include.subtype %}
+          [{{ include.subtype }}]
+        {% endif %}
+      </div>
+
     </div>
     
     <div class="alert-content-text">
