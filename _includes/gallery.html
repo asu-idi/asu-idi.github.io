@@ -1,0 +1,98 @@
+{% assign sorted_gallery = site.data.gallery-map | sort: 'date' | reverse %}
+{% for item in sorted_gallery %}
+<h2>{{ item.title }}</h2>
+<div id="my-gallery-{{ forloop.index }}">
+  {% for image in site.static_files %}
+    {% if image.path contains item.folder %}
+      <a href="{{ image.path }}" data-lightbox="gallery-{{ item.title }}">
+        <img src="{{ image.path }}" alt="{{ item.title }}" />
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% endfor %}
+
+<script>
+  lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true
+  })
+</script>
+
+<script>
+  {% for item in sorted_gallery %}
+    $(document).ready(function() {
+      $('#my-gallery-{{ forloop.index }}').justifiedGallery({
+        rowHeight: 200,
+        maxRowHeight: null,
+        margins: 5,
+        maxRowsCount: 4,
+        captions: false
+      });
+    });
+  {% endfor %}
+</script>
+
+<style>
+  .glide {
+    position: relative;
+    padding: 0 40px;
+  }
+
+  .gallery-image {
+    height: 240px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .glide__arrows {
+    position: absolute;
+    width: 100%;
+    top: 110px;
+    transform: translateY(-50%);
+    left: 0;
+  }
+
+  .glide__arrow {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .glide__arrow--left {
+    left: 0;
+  }
+
+  .glide__arrow--right {
+    right: 0;
+  }
+
+  .glide__bullets {
+    position: relative;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .glide__bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+    border: none;
+    cursor: pointer;
+  }
+
+  .glide__bullet--active {
+    background: #666;
+  }
+</style>
