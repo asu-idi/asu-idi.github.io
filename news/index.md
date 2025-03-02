@@ -18,5 +18,6 @@ nav:
   date=item.date
   type=item.type
   content=item.title
+  subtype=item.subtype
 %}
 {% endfor %}
