@@ -13,6 +13,7 @@
   date: '2024-07-08'
   link: https://doi.org/10.1145/3655038.3665946
   conference: ACM HotStorage 2024
+  style: none
   buttons:
   - type: download
     link: ./../publications/files/HS24_ZNS_PersistentCache.pdf
@@ -31,6 +32,7 @@
   date: '2024-07-08'
   link: https://doi.org/10.1145/3655038.3665954
   conference: ACM HotStorage 2024
+  style: none
   buttons:
   - type: download
     link: ./../publications/files/HS24_GPT_Project.pdf
@@ -38,6 +40,7 @@
   file: sources.yaml
 - title: 'Prophet: Optimizing LSM-Based Key-Value Store on ZNS SSDs with File Lifetime
     Prediction and Compaction Compensation'
+  style: none
   authors:
   - Gaoji Liu
   - Chongzhuo Yang
@@ -50,6 +53,7 @@
   plugin: sources.py
   file: sources.yaml
 - title: 'SAS-Cache: A Semantic-Aware Secondary Cache for LSM-based Key-Value Stores'
+  style: none
   authors:
   - Zhang Cao
   - Chang Guo
@@ -73,6 +77,7 @@
   publisher: Proc. ACM Manag. Data
   date: '2024-05-30'
   link: https://doi.org/10.1145/3654927
+  style: none
   conference: ACM SIGMOD 2024
   plugin: sources.py
   file: sources.yaml
@@ -87,6 +92,7 @@
   publisher: ''
   date: '2023-11-06'
   link: https://ieeexplore.ieee.org/document/10360958/
+  style: none
   conference: IEEE ICCD 2023
   plugin: sources.py
   file: sources.yaml
@@ -105,6 +111,7 @@
   publisher: ''
   date: '2023-11-06'
   link: https://ieeexplore.ieee.org/document/10360961/
+  style: none
   conference: IEEE ICCD 2023
   plugin: sources.py
   file: sources.yaml
@@ -120,6 +127,7 @@
     and Data Engineering
   date: '2024-05-30'
   link: https://doi.org/10.1145/3653924.3653935
+  style: none
   conference: ACM DSDE 2024
   plugin: sources.py
   file: sources.yaml
@@ -133,6 +141,7 @@
   publisher: ''
   date: '2024-12-08'
   link: https://ieeexplore.ieee.org/document/10747694/
+  style: none
   conference: IEEE Transactions on Computers
   plugin: sources.py
   file: sources.yaml
@@ -153,6 +162,7 @@
   publisher: Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles
   date: '2024-11-15'
   link: https://doi.org/10.1145/3694715.3695953
+  style: none
   conference: Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles
   plugin: sources.py
   file: sources.yaml
