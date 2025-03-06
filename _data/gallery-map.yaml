@@ -1,6 +1,18 @@
 # Exclusively to build the gallery in an orderly manner
 # Maybe in the future, we can use this data to make a more complex view of the gallery
 
+- date: 2025-02-27
+  title: "FAST 2025"
+  folder: /images/gallery/fast25
+
 - date: 2024-11-16
-  title: "Lab Outing #1 - BBQ at Saguaro Lake"
-  folder: /images/gallery/lab-outing
+  title: "BBQ at Saguaro Lake"
+  folder: /images/gallery/lab-outing-1
+
+- date: 2024-07-09
+  title: "HotStorage 2024"
+  folder: /images/gallery/hotstorage24
+
+- date: 2024-02-27
+  title: "FAST 2024"
+  folder: /images/gallery/fast24
