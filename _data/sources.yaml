@@ -1,16 +1,19 @@
 - id: https://doi.org/10.1145/3655038.3665946
   conference: ACM HotStorage 2024
+  style: none
   buttons:
     - type: download
       link: ./../publications/files/HS24_ZNS_PersistentCache.pdf
 
 - id: https://doi.org/10.1145/3655038.3665954
   conference: ACM HotStorage 2024
+  style: none
   buttons:
     - type: download
       link: ./../publications/files/HS24_GPT_Project.pdf
 
 - title: "Prophet: Optimizing LSM-Based Key-Value Store on ZNS SSDs with File Lifetime Prediction and Compaction Compensation"
+  style: none
   authors:
     - Gaoji Liu
     - Chongzhuo Yang
@@ -22,6 +25,7 @@
   date: '2024-06-03'
 
 - title: "SAS-Cache: A Semantic-Aware Secondary Cache for LSM-based Key-Value Stores"
+  style: none
   authors:
     - Zhang Cao
     - Chang Guo
@@ -32,10 +36,12 @@
   date: '2024-06-03'
 
 - id: https://doi.org/10.1145/3654927
+  style: none
   conference: ACM SIGMOD 2024
 
 - id: https://doi.org/10.1109/ICCD58817.2023.00050
   title: "SMRTS: A Performance and Cost-Effectiveness Optimized SSD-SMR Tiered File System with Data Deduplication"
+  style: none
   authors:
     - Zhichao Cao
     - Hao Wen
@@ -46,6 +52,7 @@
 
 - id: https://doi.org/10.1109/ICCD58817.2023.00041
   title: "K8sES: Optimizing Kubernetes with Enhanced Storage Service-Level Objectives"
+  style: none
   authors:
     - Hao Wen
     - Zhichao Cao
@@ -60,10 +67,12 @@
   conference: IEEE ICCD 2023
 
 - id: https://doi.org/10.1145/3653924.3653935
+  style: none
   conference: ACM DSDE 2024
 
 - id: https://doi.org/10.1109/TC.2024.3485238
   title: "CPI: A Collaborative Partial Indexing Design for Large-Scale Deduplication Systems"
+  style: none
   conference: IEEE Transactions on Computers
   date: '2024-12-08'
   authors:
@@ -73,4 +82,5 @@
 
 - id: https://doi.org/10.1145/3694715.3695953
   title: "BIZA: Design of Self-Governing Block-Interface ZNS AFA for Endurance and Performance"
+  style: none
   conference: "Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles"
