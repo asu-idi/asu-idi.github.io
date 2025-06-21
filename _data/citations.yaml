@@ -11,7 +11,7 @@
   publisher: Proceedings of the 16th ACM Workshop on Hot Topics in Storage and File
     Systems
   date: '2024-07-08'
-  link: https://doi.org/10.1145/3655038.3665946
+  link: https://dl.acm.org/doi/10.1145/3655038.3665946
   conference: ACM HotStorage 2024
   style: none
   buttons:
@@ -30,7 +30,7 @@
   publisher: Proceedings of the 16th ACM Workshop on Hot Topics in Storage and File
     Systems
   date: '2024-07-08'
-  link: https://doi.org/10.1145/3655038.3665954
+  link: https://dl.acm.org/doi/10.1145/3655038.3665954
   conference: ACM HotStorage 2024
   style: none
   buttons:
@@ -74,9 +74,9 @@
   - Viraj Thakkar
   - Jianguo Wang
   - Zhichao Cao
-  publisher: Proc. ACM Manag. Data
-  date: '2024-05-30'
-  link: https://doi.org/10.1145/3654927
+  publisher: Proceedings of the ACM on Management of Data
+  date: '2024-05-29'
+  link: https://dl.acm.org/doi/10.1145/3654927
   style: none
   conference: ACM SIGMOD 2024
   plugin: sources.py
@@ -125,8 +125,8 @@
   - Zhichao Cao
   publisher: Proceedings of the 2024 7th International Conference on Data Storage
     and Data Engineering
-  date: '2024-05-30'
-  link: https://doi.org/10.1145/3653924.3653935
+  date: '2024-02-27'
+  link: https://dl.acm.org/doi/10.1145/3653924.3653935
   style: none
   conference: ACM DSDE 2024
   plugin: sources.py
@@ -160,8 +160,8 @@
   - Ke Zhou
   - Jie Zhang
   publisher: Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles
-  date: '2024-11-15'
-  link: https://doi.org/10.1145/3694715.3695953
+  date: '2024-11-04'
+  link: https://dl.acm.org/doi/10.1145/3694715.3695953
   style: none
   conference: Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles
   plugin: sources.py
