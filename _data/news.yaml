@@ -1,3 +1,13 @@
+- date: 2025-06-06
+  type: news-paper-accepted
+  subtype: HotStorage 2025
+  title: "\"Unlocking the Unusable: A Proactive Caching Framework for Reusing Partial Overlapped Data\" accepted at ACM HotStorage 2025"
+
+- date: 2025-06-06
+  type: news-paper-accepted
+  subtype: HPDC 2025
+  title: "\"LegoIndex: A Scalable and Modular Indexing Framework for Efficient Analysis of Extreme-Scale Particle Data\" accepted at HPDC 2025"
+
 - date: 2025-02-27
   type: news-paper-accepted
   subtype: arXiv
