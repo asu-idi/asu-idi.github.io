@@ -91,7 +91,7 @@
   - David H.C. Du
   publisher: ''
   date: '2023-11-06'
-  link: https://ieeexplore.ieee.org/document/10360958/
+  link: https://doi.org/10.1109/ICCD58817.2023.00050
   style: none
   conference: IEEE ICCD 2023
   plugin: sources.py
@@ -110,7 +110,7 @@
   - Fenggang Wu
   publisher: ''
   date: '2023-11-06'
-  link: https://ieeexplore.ieee.org/document/10360961/
+  link: https://doi.org/10.1109/ICCD58817.2023.00041
   style: none
   conference: IEEE ICCD 2023
   plugin: sources.py
@@ -140,7 +140,7 @@
   - David H.C. Du
   publisher: ''
   date: '2024-12-08'
-  link: https://ieeexplore.ieee.org/document/10747694/
+  link: https://doi.org/10.1109/TC.2024.3485238
   style: none
   conference: IEEE Transactions on Computers
   plugin: sources.py
