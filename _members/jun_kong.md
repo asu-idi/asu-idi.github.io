@@ -1,6 +1,6 @@
 ---
-name: Chang Guo
-image: images/members/Chang-2024-P13648.jpg
+name: Jun Kong
+image: images/members/junkong.jpg
 role: phd
 ---
 
