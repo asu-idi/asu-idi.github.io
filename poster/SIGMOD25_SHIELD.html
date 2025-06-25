@@ -42,21 +42,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Viraj Thakkar | ASU-IDI</title>
+<title>SHIELD: Encrypting Persistent Data of LSM-KVS from Monolithic to Disaggregated Storage | ASU-IDI</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Viraj Thakkar">
+<meta name="title" content="SHIELD: Encrypting Persistent Data of LSM-KVS from Monolithic to Disaggregated Storage">
 <meta name="description" content="The Intelligent Data Infrastructure Lab at Arizona State University. We develop next-generation data infrastructure, focusing on storage, memory, and database systems. Our RAISE approach—Resilient, Adaptive, Intelligent, Sustainable, and Efficient—ensures scalability, integration with emerging technologies, and sustainable design. We tackle challenges from disaggregated infrastructure to AI-driven applications and scientific computing.">
 
-<meta property="og:title" content="Viraj Thakkar">
+<meta property="og:title" content="SHIELD: Encrypting Persistent Data of LSM-KVS from Monolithic to Disaggregated Storage">
 <meta property="og:site_title" content="ASU-IDI">
 <meta property="og:description" content="The Intelligent Data Infrastructure Lab at Arizona State University. We develop next-generation data infrastructure, focusing on storage, memory, and database systems. Our RAISE approach—Resilient, Adaptive, Intelligent, Sustainable, and Efficient—ensures scalability, integration with emerging technologies, and sustainable design. We tackle challenges from disaggregated infrastructure to AI-driven applications and scientific computing.">
 <meta property="og:url" content="">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Viraj Thakkar">
+<meta property="twitter:title" content="SHIELD: Encrypting Persistent Data of LSM-KVS from Monolithic to Disaggregated Storage">
 <meta property="twitter:description" content="The Intelligent Data Infrastructure Lab at Arizona State University. We develop next-generation data infrastructure, focusing on storage, memory, and database systems. Our RAISE approach—Resilient, Adaptive, Intelligent, Sustainable, and Efficient—ensures scalability, integration with emerging technologies, and sustainable design. We tackle challenges from disaggregated infrastructure to AI-driven applications and scientific computing.">
 <meta property="twitter:url" content="">
 <meta property="twitter:card" content="summary_large_image">
@@ -72,9 +72,9 @@
     
       "@type": "WebSite",
     
-    "name": "Viraj Thakkar",
+    "name": "SHIELD: Encrypting Persistent Data of LSM-KVS from Monolithic to Disaggregated Storage",
     "description": "The Intelligent Data Infrastructure Lab at Arizona State University. We develop next-generation data infrastructure, focusing on storage, memory, and database systems. Our RAISE approach—Resilient, Adaptive, Intelligent, Sustainable, and Efficient—ensures scalability, integration with emerging technologies, and sustainable design. We tackle challenges from disaggregated infrastructure to AI-driven applications and scientific computing.",
-    "headline": "Viraj Thakkar",
+    "headline": "SHIELD: Encrypting Persistent Data of LSM-KVS from Monolithic to Disaggregated Storage",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -430,198 +430,101 @@
   
 
   <section class="background" data-size="page">
-    <div class="float">
+    <h1 class="center">SHIELD: Encrypting Persistent Data of LSM-KVS from Monolithic to Disaggregated Storage</h1>
+
+<div class="post-info">
   
-<div class="portrait-wrapper">
-  <a class="portrait" data-style="" aria-label="Viraj Thakkar">
-    <img src="/images/members/viraj.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Viraj Thakkar
-          </span>
-        
+  
+  
 
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-graduation-cap"></i>
-            <span>PhD Student</span>
-          </span>
-        
-      </span>
+  
+
+  
+</div>
+
+
+  
+
+
+  <div class="tags" data-link="/research">
     
+      <a href="/research?search=%22tag:%20SIGMOD%22" class="tag" data-tooltip='Show items with the tag "SIGMOD"'>
+        SIGMOD
+      </a>
+    
+      <a href="/research?search=%22tag:%202025%22" class="tag" data-tooltip='Show items with the tag "2025"'>
+        2025
+      </a>
+    
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+<p>In this research, we introduce SHIELD, a novel log-structured-merge tree-based (e.g., RocksDB, LevelDB, and Cassandra) data encrypting, decentralized data encryption key (DEK) management, and LSM-native DEK rotation framework to address the challenges of providing robust security for high performance in both monolith and disaggregated storage deployments.</p>
+
+<p>We achieve our objective through three contributions: 
+<br></p>
+<ol>
+  <li>A fine-grained integration of encryption into LSM-KVS write path to minimize performance overhead from exposure-limiting practices like using unique encryption keys per file and regularly re-encrypting using new encryption keys during compaction,</li>
+  <li>Mitigating performance degradation caused by recurring encryption of Write-Ahead Log (WAL) writes by using a buffering solution and</li>
+  <li>Extending confidentiality guarantees to DS by designing a metadata-enabled encryption-key-sharing mechanism and a secure local cache for high scalability and flexibility. 
+<br>
+We implement both designs on RocksDB, evaluating them in monolithic and DS setups while showcasing an overhead of 0-32% for the instance-level design and 0-36% for SHIELD.</li>
+</ol>
+
+<p>Full Paper: <a href="./../publications/files/SIGMOD25_SHIELD.pdf" target="_blank">SIGMOD25_SHIELD_Preprint.pdf</a>
+<br>
+GitHub URL: <a href="https://github.com/asu-idi/SHIELD" target="_blank">github.com/asu-idi/SHIELD</a>
+<br>
+Poster PDF: <a href="./../poster/files/SHIELD_Poster.pdf" target="_blank">SHIELD_Poster.pdf</a></p>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="The SHIELD Poster">
+    <img src="/images/posters/SHIELD_SIGMOD25_Poster.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="The SHIELD Poster" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
-</div>
-
-<div>
   
-    
-    
-    
+    <figcaption class="figure-caption">
+      The SHIELD Poster
 
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://www.linkedin.com/in/veedata" data-style="bare" aria-label="LinkedIn">
-      <i class="icon fa-brands fa-linkedin"></i>
-      
-        <span>LinkedIn</span>
-      
-    </a>
-  </div>
-
-<br>
+    </figcaption>
   
-    
-    
-    
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="mailto:viraj.online@asu.edu" data-style="bare" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
-      
-        <span>Email</span>
-      
-    </a>
-  </div>
-
-<br>
-  
-    
-    
-    
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://veedata.github.io" data-style="bare" aria-label="Website">
-      <i class="icon fa-solid fa-globe"></i>
-      
-        <span>Website</span>
-      
-    </a>
-  </div>
-
-<br>
-  
-    
-    
-    
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://github.com/veedata" data-style="bare" aria-label="GitHub">
-      <i class="icon fa-brands fa-github"></i>
-      
-        <span>GitHub</span>
-      
-    </a>
-  </div>
-
-<br>
-  
-</div>
-
-
-</div>
-
-
-<p>Viraj is usually tinkering with hardware and software. Always looking towards working at the intersection of new, exciting and stressful.</p>
-
-<p>His research focused on disaggregated database systems, tuning LSM-KVS, cutting edge hardware devices (SMR, ZNS), and integration of modern AI techniques in database systems.</p>
-
-
-
-
-<!--  -->
-
-<!-- <p class="center">
-  <a href="/publications/?search=%22Viraj%20Thakkar%22%20">
-    Search for Viraj Thakkar's papers on the Publications page
-  </a>
-</p> -->
-
-
-
-
-<h3 id="publications">Publications</h3>
-
+</figure>
+  </section>
 
   
-
-<div class="citation">
+  
   
 
-  <div class="citation-text">
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+<div class="post-nav">
+  <span>
     
+  </span>
+  <span>
     
-
-    <a target="_blank" class="citation-title">
-      Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Viraj Thakkar, Madhumitha Sukumar, Jiaxin Dai, Kaushiki Singh, Zhichao Cao
-    </div>
-
-    <div class="citation-details">
-      
-        ACM HotStorage 2024
-      
-        ·  
-      
-        08 Jul 2024
-        
-            ·  
-          https://doi.org/10.1145/3655038.3665954
-        
-      
-    </div>
-
-    
-  </div>
-</div>
-
-
-  
-
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a target="_blank" class="citation-title">
-      CaaS-LSM: Compaction-as-a-Service for LSM-based Key-Value Stores in Storage Disaggregated Infrastructure
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Qiaolin Yu, Chang Guo, Jay Zhuang, Viraj Thakkar, Jianguo Wang, Zhichao Cao
-    </div>
-
-    <div class="citation-details">
-      
-        ACM SIGMOD 2024
-      
-        ·  
-      
-        29 May 2024
-        
-            ·  
-          https://doi.org/10.1145/3654927
-        
-      
-    </div>
-
-    
-  </div>
+  </span>
 </div>
   </section>
 
