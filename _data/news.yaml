@@ -18,7 +18,9 @@
 - date: 2025-02-03
   type: news-paper-accepted
   subtype: SIGMOD 2025
-  title: "\"SHIELD: Encrypting Persistent Data of LSM-KVS from Monolithic to Disaggregated Storage\" accepted at ACM SIGMOD 2025"
+  title: '"SHIELD: Encrypting Persistent Data of LSM-KVS from Monolithic to Disaggregated Storage" accepted at ACM SIGMOD 2025.<br>
+          <a href="./../publications/files/SIGMOD25_SHIELD.pdf" target="_blank">PDF</a>, 
+          <a href="https://github.com/asu-idi/SHIELD" target="_blank">GitHub Repo</a>'
 
 - date: 2024-12-31
   type: news-award
