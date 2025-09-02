@@ -2,6 +2,7 @@
 name: Qi Lin
 image: images/members/qilin.jpeg
 role: phd
+join_date: 2023-08-09
 links:
   linkedin: qi-lin-249943179
   email: qlin36@asu.edu

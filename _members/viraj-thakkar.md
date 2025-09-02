@@ -2,6 +2,7 @@
 name: Viraj Thakkar
 image: images/members/viraj.jpg
 role: phd
+join_date: 2023-08-08
 links:
   linkedin: veedata
   email: viraj.online@asu.edu

@@ -2,6 +2,7 @@
 name: Jun Kong
 image: images/members/junkong.jpg
 role: phd
+join_date: 2025-08-09
 links:
   linkedin: jun-kong-11936925a
   email: jkong123@asu.edu

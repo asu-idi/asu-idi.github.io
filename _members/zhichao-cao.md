@@ -2,6 +2,7 @@
 name: Zhichao Cao
 image: images/members/zcao57.png
 role: pi
+join_date: 2021-12-12
 links:
   home-page: https://search.asu.edu/profile/4082902
   orcid: 0000-0001-6950-1776

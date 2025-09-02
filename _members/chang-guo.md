@@ -2,6 +2,7 @@
 name: Chang Guo
 image: images/members/Chang-2024-P13648.jpg
 role: phd
+join_date: 2022-08-08
 links:
   email: cguo51@asu.edu
   github: change72

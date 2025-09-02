@@ -2,6 +2,7 @@
 name: Zhenyu Zhang
 image: images/members/zhenyuzhang.jpg
 role: phd
+join_date: 2024-08-08
 links:
   email: zzhan641@asu.edu
   github: ae86zhizhi

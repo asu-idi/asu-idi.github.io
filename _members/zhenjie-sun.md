@@ -2,6 +2,7 @@
 name: Zhenjie Sun
 image: images/members/zhenjie.jpg
 role: phd
+join_date: 2025-08-08
 links:
   website: http://szj.ai/
 ---
