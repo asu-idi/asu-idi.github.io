@@ -7,8 +7,8 @@ Data is the gold of the 21st century, which reflects, influences, and empowers o
 
 {% include section.html %}
 
-<b>Hiring!</b> <br>
-Recruiting 1-2 fully funded Ph.D. students for Fall 2025, focusing on research areas related to data systems for LLMs (e.g., KV-cache, offloading, vector databases, and hierarchical databases). Currently collaborating closely with Meta and the ORNL National Laboratory in this field.
+<!-- <b>Hiring!</b> <br>
+Recruiting 1-2 fully funded Ph.D. students for Fall 2025, focusing on research areas related to data systems for LLMs (e.g., KV-cache, offloading, vector databases, and hierarchical databases). Currently collaborating closely with Meta and the ORNL National Laboratory in this field. -->
 
 ## News
 
