@@ -163,6 +163,70 @@
   date: '2024-11-04'
   link: https://dl.acm.org/doi/10.1145/3694715.3695953
   style: none
-  conference: Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles
+  conference: ACM SOSP 2024
+  plugin: sources.py
+  file: sources.yaml
+- id: https://dl.acm.org/doi/10.1145/3725354
+  title: 'SHIELD: Encrypting Persistent Data of LSM-KVS from Monolithic to Disaggregated
+    Storage'
+  authors:
+  - Viraj Thakkar
+  - Dongha Kim
+  - Yingchun Lai
+  - Hokeun Kim
+  - Zhichao Cao
+  publisher: Proceedings of the ACM on Management of Data
+  date: '2025-06-17'
+  link: https://dl.acm.org/doi/10.1145/3725354
+  style: none
+  conference: ACM SIGMOD 2025
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Bit-Flip Error Resilience in LLMs: A Comprehensive Analysis and Defense
+    Framework'
+  conference: EMNLP 2025
+  style: none
+  authors:
+  - Yuhang Chen
+  - Zhen Tan
+  - Ajay Kumar Jaiswal
+  - Huaizhi Qu
+  - Xinyu Zhao
+  - Qi Lin
+  - Yu Cheng
+  - Andrew Kwong
+  - Zhichao Cao
+  - Tianlong Chen
+  date: '2025-11-04'
+  plugin: sources.py
+  file: sources.yaml
+- id: https://dl.acm.org/doi/10.1145/3736548.3737839
+  title: 'Unlocking the Unusable: A Proactive Caching Framework for Reusing Partial
+    Overlapped Data'
+  authors:
+  - Chang Guo
+  - Norbert Podhorszki
+  - Greg Eisenhauer
+  - Zhiwen Xie
+  - Scott Klasky
+  - Zhichao Cao
+  publisher: Proceedings of the 17th ACM Workshop on Hot Topics in Storage and File
+    Systems
+  date: '2025-07-10'
+  link: https://dl.acm.org/doi/10.1145/3736548.3737839
+  style: none
+  conference: ACM HotStorage 2025
+  plugin: sources.py
+  file: sources.yaml
+- title: LegoIndex A Scalable and Modular Indexing Framework for Efficient Analysis
+    of Extreme-Scale Particle Data
+  conference: HPDC 2025
+  style: none
+  authors:
+  - Chang Guo
+  - Ning Yan
+  - Lipeng Wan
+  - Zhichao Cao
+  date: '2025-07-20'
   plugin: sources.py
   file: sources.yaml
