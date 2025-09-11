@@ -47,7 +47,7 @@ jobs:
 
       - name: Install Python packages
         run: |
-          python -m pip install --upgrade --requirement ./_cite/requirements.txt
+          python -m pip install --upgrade --requirement ./_cite/requirements.txt --break-system-packages 
 
       - name: Build updated citations
         run: python _cite/cite.py
