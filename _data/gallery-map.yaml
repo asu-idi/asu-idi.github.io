@@ -1,6 +1,10 @@
 # Exclusively to build the gallery in an orderly manner
 # Maybe in the future, we can use this data to make a more complex view of the gallery
 
+- date: 2025-06-22
+  title: "SIGMOD 2025"
+  folder: /images/gallery/sigmod25
+
 - date: 2025-02-27
   title: "FAST 2025"
   folder: /images/gallery/fast25
