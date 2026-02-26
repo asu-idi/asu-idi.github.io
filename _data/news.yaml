@@ -1,3 +1,13 @@
+- date: 2026-01-23
+  type: news-paper-accepted
+  subtype: FAST 2026
+  title: "2 Projects Accepted for WIP and Poster at FAST 2026"
+
+- date: 2026-01-20
+  type: news-paper-accepted
+  subtype: ICDE 2026
+  title: "PROGQL: A Provenance Graph Query System for Cyber Attack Investigation"
+
 - date: 2025-08-20
   type: news-paper-accepted
   subtype: EMNLP 2025
