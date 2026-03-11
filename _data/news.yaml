@@ -1,3 +1,10 @@
+- date: 2026-02-03
+  type: news-paper-accepted
+  subtype: SIGMOD 2026
+  title: '"O3-LSM: Maximizing Disaggregated LSM Write Performance via Three-Layer Offloading" accepted at ACM SIGMOD 2026.<br>
+          <a href="https://arxiv.org/abs/2603.05439" target="_blank">arXiv</a>,
+          <a href="https://arxiv.org/pdf/2603.05439" target="_blank">PDF</a>'
+          
 - date: 2026-01-23
   type: news-paper-accepted
   subtype: FAST 2026
