@@ -182,10 +182,9 @@
   conference: ACM SIGMOD 2025
   plugin: sources.py
   file: sources.yaml
-- title: 'Bit-Flip Error Resilience in LLMs: A Comprehensive Analysis and Defense
+- id: https://doi.org/10.18653/v1/2025.emnlp-main.528
+  title: 'Bit-Flip Error Resilience in LLMs: A Comprehensive Analysis and Defense
     Framework'
-  conference: EMNLP 2025
-  style: none
   authors:
   - Yuhang Chen
   - Zhen Tan
@@ -197,7 +196,12 @@
   - Andrew Kwong
   - Zhichao Cao
   - Tianlong Chen
-  date: '2025-11-04'
+  publisher: Proceedings of the 2025 Conference on Empirical Methods in Natural Language
+    Processing
+  date: '2025-11-01'
+  link: https://aclanthology.org/2025.emnlp-main.528/
+  style: none
+  conference: EMNLP 2025
   plugin: sources.py
   file: sources.yaml
 - id: https://dl.acm.org/doi/10.1145/3736548.3737839
@@ -218,15 +222,85 @@
   conference: ACM HotStorage 2025
   plugin: sources.py
   file: sources.yaml
-- title: LegoIndex A Scalable and Modular Indexing Framework for Efficient Analysis
-    of Extreme-Scale Particle Data
-  conference: HPDC 2025
-  style: none
+- id: https://dl.acm.org/doi/10.1145/3731545.3731591
+  title: 'LegoIndex: A Scalable and Modular Indexing Framework for Efficient Analysis
+    of Extreme-Scale Particle Data'
   authors:
   - Chang Guo
   - Ning Yan
   - Lipeng Wan
   - Zhichao Cao
+  publisher: Proceedings of the 34th International Symposium on High-Performance Parallel
+    and Distributed Computing
   date: '2025-07-20'
+  link: https://dl.acm.org/doi/10.1145/3731545.3731591
+  conference: HPDC 2025
+  style: none
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.48550/arXiv.2510.22400
+  title: 'ProGQL: A Provenance Graph Query System for Cyber Attack Investigation'
+  authors:
+  - Fei Shao
+  - Jia Zou
+  - Zhichao Cao
+  - Xusheng Xiao
+  publisher: arXiv
+  date: '2026-01-20'
+  link: http://arxiv.org/abs/2510.22400
+  conference: ICDE 2026
+  style: none
+  type: To Appear
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.48550/arXiv.2603.05439
+  title: 'O^3-LSM: Maximizing Disaggregated LSM Write Performance via Three-Layer
+    Offloading'
+  authors:
+  - Qi Lin
+  - Gangqi Huang
+  - Te Guo
+  - Chang Guo
+  - Viraj Thakkar
+  - Zichen Zhu
+  - Jianguo Wang
+  - Zhichao Cao
+  publisher: arXiv
+  date: '2026-02-03'
+  link: http://arxiv.org/abs/2603.05439
+  conference: ACM SIGMOD 2026
+  style: none
+  type: To Appear
+  plugin: sources.py
+  file: sources.yaml
+- title: 'ANCHOR: A Vision for Secure Persistent Key-Value Stores in Disaggregated
+    Data Centers'
+  authors:
+  - Viraj Thakkar
+  - Dongha Kim
+  - Hokeun Kim
+  - Zhichao Cao
+  conference: ACM SeQureDB 2026
+  style: none
+  date: '2026-03-31'
+  type: To Appear
+  plugin: sources.py
+  file: sources.yaml
+- title: 'ColdMap: Compaction-Aware Cost-Benefit Zone Cleaning for ZNS-Based Key-Value
+    Stores'
+  authors:
+  - Sungjin Byeon
+  - Kyungwook Min
+  - Jaewan Park
+  - Sangyun Lee
+  - Hong-Yeon Kim
+  - Junyoung Han
+  - Joo-Young Hwang
+  - Zhichao Cao
+  - Youngjae Kim
+  conference: ACM ICS 2026
+  style: none
+  date: '2026-04-04'
+  type: To Appear
   plugin: sources.py
   file: sources.yaml
