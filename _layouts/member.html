@@ -2,59 +2,47 @@
 layout: default
 ---
 
-{% capture floatcontent %}
+<div class="member-layout">
+  {% assign member_name = page.name | default: page.title %}
 
-{% include portrait.html lookup=page.slug %}
+  <aside class="member-sidebar">
+    <div class="member-sidebar-content">
+      {% include portrait.html lookup=page.slug %}
 
-<div>
-  {% for link in page.links %}
-    {% assign key = link[0] %}
-    {% assign value = link[1] %}
-    {% include button.html type=key link=value style="bare" %}<br>
-  {% endfor %}
+      {% if page.links %}
+        <div class="member-links">
+          {% for link in page.links %}
+            {% assign key = link[0] %}
+            {% assign value = link[1] %}
+            {% include button.html type=key link=value style="bare" %}<br>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </aside>
+
+  <div class="member-main">
+    {{ content }}
+
+    {% assign data = site.data.citations
+      | where_exp: "d", "d.authors contains member_name"
+      | sort: "date"
+      | reverse
+    %}
+
+    <h3 id="publications">Publications</h3>
+
+    {% for d in data %}
+      {% include citation.html
+        authors=d.authors
+        date=d.date
+        title=d.title
+        type=d.type
+        conference=d.conference
+        url=d.url
+        id=d.id
+        highlight_author=member_name
+      %}
+    {% endfor %}
+  </div>
 </div>
-
-{% endcapture %}
-
-{% include float.html content=floatcontent %}
-
-{{ content }}
-
-{% assign aliases = page.aliases
-  | default: page.name
-  | default: page.title
-  | join: ","
-  | split: ","
-  | array_filter
-%}
-
-<!-- {% capture search -%}
-  publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %} -->
-
-<!-- <p class="center">
-  <a href="{{ search | relative_url }}">
-    Search for {{ page.name | default: page.title }}'s papers on the Publications page
-  </a>
-</p> -->
-
-
-{% assign data = site.data.citations
-  | where_exp: "d", "d.authors contains page.title"
-  | sort: "date"
-  | reverse
-%}
-
-<h3 id="publications">Publications</h3>
-
-{% for d in data %}
-  {% include citation.html
-    authors=d.authors
-    date=d.date
-    title=d.title
-    type=d.type
-    conference=d.conference
-    url=d.url
-    id=d.id
-  %}
-{% endfor %}

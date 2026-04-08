@@ -4,6 +4,17 @@
   | first
   | default: include
 %}
+{% assign highlight_author = include.highlight_author | default: "" %}
+{% assign highlight_author_normalized = highlight_author | strip | downcase %}
+{% assign citation_id = citation.id | default: "" | strip %}
+{% assign citation_id_url = citation_id %}
+{% unless citation_id_url contains "://" %}
+  {% if citation_id_url contains "doi.org/" %}
+    {% assign citation_id_url = citation_id_url | prepend: "https://" %}
+  {% elsif citation_id_url != "" %}
+    {% assign citation_id_url = citation_id_url | prepend: "https://doi.org/" %}
+  {% endif %}
+{% endunless %}
 
 <div class="citation">
   {% if include.style == "rich" %}
@@ -40,19 +51,36 @@
 
     <div
       class="citation-authors"
-      {% if citation.authors.size > 10 %}
+      {% if citation.authors.size > 10 and highlight_author_normalized == "" %}
         data-tooltip="{{ citation.authors | join: ", " }} "
       {% endif %}
       tabindex="0"
     >
-      {{
-        citation.authors
-        | join: ","
-        | split: ","
-        | array_carve: 5
-        | join: ", "
-        | default: "[no author info]"
-      }}
+      {% if highlight_author_normalized != "" %}
+        {% capture highlighted_authors %}{% endcapture %}
+        {% for author in citation.authors %}
+          {% assign author_clean = author | strip %}
+          {% assign author_normalized = author_clean | downcase %}
+
+          {% if author_normalized == highlight_author_normalized %}
+            {% capture author_item %}<strong class="citation-author-self">{{ author_clean }}</strong>{% endcapture %}
+          {% else %}
+            {% assign author_item = author_clean %}
+          {% endif %}
+
+          {% capture highlighted_authors %}{{ highlighted_authors }}{{ author_item }}{% unless forloop.last %}, {% endunless %}{% endcapture %}
+        {% endfor %}
+        {{ highlighted_authors | strip }}
+      {% else %}
+        {{
+          citation.authors
+          | join: ","
+          | split: ","
+          | array_carve: 5
+          | join: ", "
+          | default: "[no author info]"
+        }}
+      {% endif %}
     </div>
 
     <div class="citation-details">
@@ -66,9 +94,11 @@
         To Appear
       {% else %}
         {{ citation.date | default: "[no date info]" | date: "%d %b %Y" }}
-        {% if citation.id %}
+        {% if citation_id != "" %}
           &nbsp; · &nbsp;
-          {{ citation.id | default: "" }}
+          <a href="{{ citation_id_url }}" target="_blank" rel="noopener noreferrer">
+            {{ citation_id }}
+          </a>
         {% endif %}
       {% endif %}
     </div>
