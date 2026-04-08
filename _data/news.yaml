@@ -1,3 +1,13 @@
+- date: 2026-04-04
+  type: news-paper-accepted
+  subtype: ICS 2026
+  title: '"ColdMap: Compaction-Aware Cost-Benefit Zone Cleaning for ZNS-Based Key-Value Stores." accepted at ACM ICS 2026.'
+
+- date: 2026-03-31
+  type: news-paper-accepted
+  subtype: SeQureDB 2026
+  title: '"ANCHOR: A Vision for Secure Persistent Key-Value Stores in Disaggregated Data Centers" accepted at ACM SeQureDB 2026.'
+
 - date: 2026-02-03
   type: news-paper-accepted
   subtype: SIGMOD 2026
