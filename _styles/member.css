@@ -1,0 +1,51 @@
+.member-layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 40px;
+  align-items: start;
+}
+
+.member-sidebar {
+  position: sticky;
+  top: 100px;
+  align-self: start;
+}
+
+.member-sidebar-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.member-links {
+  text-align: center;
+}
+
+.member-main {
+  min-width: 0;
+  max-height: calc(100vh - 140px);
+  padding: 8px 14px 20px 2px;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.member-main > :first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 900px) {
+  .member-layout {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .member-sidebar {
+    position: static;
+  }
+  .member-main {
+    max-height: unset;
+    padding: 0;
+    overflow-y: visible;
+  }
+}
+
+/*# sourceMappingURL=member.css.map */
