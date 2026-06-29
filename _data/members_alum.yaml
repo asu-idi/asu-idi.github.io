@@ -1,3 +1,7 @@
+- name: "Jiajun Li"
+  role: "Graduate Student"
+  year: 2025
+
 - name: "Harry DeCecco"
   role: "Graduate Student"
   year: 2025
@@ -10,11 +14,11 @@
   role: "Graduate Student"
   year: 2024
 
-- name: "Gaoji Liu"
+- name: "Zhang Cao"
   role: "Graduate Student"
   year: 2024
 
-- name: "Zhang Cao"
+- name: "Gaoji Liu"
   role: "Graduate Student"
   year: 2024
 
