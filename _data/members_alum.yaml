@@ -2,14 +2,6 @@
   role: "Graduate Student"
   year: 2025
 
-- name: "Harry DeCecco"
-  role: "Graduate Student"
-  year: 2025
-
-- name: "Khadyothan Dasari"
-  role: "Graduate Student"
-  year: 2025
-
 - name: "Qiaolin Yu"
   role: "Graduate Student"
   year: 2024
@@ -21,6 +13,22 @@
 - name: "Gaoji Liu"
   role: "Graduate Student"
   year: 2024
+
+- name: "Harry DeCecco"
+  role: "Graduate Student"
+  year: 2025
+
+- name: "Khadyothan Dasari"
+  role: "Graduate Student"
+  year: 2025
+
+- name: "Gangqi Huang"
+  role: "Graduate Student"
+  year: 2024
+
+- name: "Bohan Wu"
+  role: "Graduate Student"
+  year: 2025
 
 - name: "Jiaxin Dai"
   role: "Graduate Student"
