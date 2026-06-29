@@ -1,7 +1,7 @@
 ---
 name: Chang Guo
 image: images/members/Chang-Guo.png
-role: Ph.D.
+role: phd
 join_date: 2022-08-17
 links:
   email: cguo51@asu.edu
