@@ -1,6 +1,6 @@
 ---
 name: Chang Guo
-image: images/members/Chang-2024-P13648.jpg
+image: images/members/Chang.webp
 role: phd
 join_date: 2022-08-08
 links:
