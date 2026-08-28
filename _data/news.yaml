@@ -6,7 +6,8 @@
 - date: 2026-03-31
   type: news-paper-accepted
   subtype: SeQureDB 2026
-  title: '"ANCHOR: A Vision for Secure Persistent Key-Value Stores in Disaggregated Data Centers" accepted at ACM SeQureDB 2026.'
+  title: '"ANCHOR: A Vision for Secure Persistent Key-Value Stores in Disaggregated Data Centers" accepted at ACM SeQureDB 2026.<br>
+          <a href="./../publications/files/SeQureDB26_ANCHOR.pdf" target="_blank">PDF</a>'
 
 - date: 2026-02-03
   type: news-paper-accepted
