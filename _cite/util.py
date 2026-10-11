@@ -227,8 +227,11 @@ def cite_with_manubot(_id):
         # if no year, consider date missing data
         citation["date"] = ""
 
-    # link
-    citation["link"] = get_safe(manubot, "URL", "").strip()
+    # link (for doi ids, use full doi instead of manubot's shortdoi url)
+    if _id.startswith("doi:"):
+        citation["link"] = f"https://doi.org/{_id[4:]}"
+    else:
+        citation["link"] = get_safe(manubot, "URL", "").strip()
 
     # return citation data
     return citation

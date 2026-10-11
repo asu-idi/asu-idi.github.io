@@ -1,6 +1,6 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: https://doi.org/10.1145/3655038.3665946
+- id: doi:10.1145/3655038.3665946
   title: Can ZNS SSDs be Better Storage Devices for Persistent Cache?
   authors:
   - Chongzhuo Yang
@@ -11,7 +11,7 @@
   publisher: Proceedings of the 16th ACM Workshop on Hot Topics in Storage and File
     Systems
   date: '2024-07-08'
-  link: https://dl.acm.org/doi/10.1145/3655038.3665946
+  link: https://doi.org/10.1145/3655038.3665946
   conference: ACM HotStorage 2024
   style: none
   buttons:
@@ -19,7 +19,7 @@
     link: ./../publications/files/HS24_ZNS_PersistentCache.pdf
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.1145/3655038.3665954
+- id: doi:10.1145/3655038.3665954
   title: Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?
   authors:
   - Viraj Thakkar
@@ -30,7 +30,7 @@
   publisher: Proceedings of the 16th ACM Workshop on Hot Topics in Storage and File
     Systems
   date: '2024-07-08'
-  link: https://dl.acm.org/doi/10.1145/3655038.3665954
+  link: https://doi.org/10.1145/3655038.3665954
   conference: ACM HotStorage 2024
   style: none
   buttons:
@@ -64,7 +64,7 @@
   date: '2024-06-03'
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.1145/3654927
+- id: doi:10.1145/3654927
   title: 'CaaS-LSM: Compaction-as-a-Service for LSM-based Key-Value Stores in Storage
     Disaggregated Infrastructure'
   authors:
@@ -76,12 +76,12 @@
   - Zhichao Cao
   publisher: Proceedings of the ACM on Management of Data
   date: '2024-05-29'
-  link: https://dl.acm.org/doi/10.1145/3654927
+  link: https://doi.org/10.1145/3654927
   style: none
   conference: ACM SIGMOD 2024
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.1109/ICCD58817.2023.00050
+- id: doi:10.1109/ICCD58817.2023.00050
   title: 'SMRTS: A Performance and Cost-Effectiveness Optimized SSD-SMR Tiered File
     System with Data Deduplication'
   authors:
@@ -89,14 +89,14 @@
   - Hao Wen
   - Fenggang Wu
   - David H.C. Du
-  publisher: ''
+  publisher: 2023 IEEE 41st International Conference on Computer Design (ICCD)
   date: '2023-11-06'
-  link: https://ieeexplore.ieee.org/document/10360958/
+  link: https://doi.org/10.1109/ICCD58817.2023.00050
   style: none
   conference: IEEE ICCD 2023
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.1109/ICCD58817.2023.00041
+- id: doi:10.1109/ICCD58817.2023.00041
   title: 'K8sES: Optimizing Kubernetes with Enhanced Storage Service-Level Objectives'
   authors:
   - Hao Wen
@@ -108,14 +108,14 @@
   - Shiyong Liu
   - Jim Diehl
   - Fenggang Wu
-  publisher: ''
+  publisher: 2023 IEEE 41st International Conference on Computer Design (ICCD)
   date: '2023-11-06'
-  link: https://ieeexplore.ieee.org/document/10360961/
+  link: https://doi.org/10.1109/ICCD58817.2023.00041
   style: none
   conference: IEEE ICCD 2023
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.1145/3653924.3653935
+- id: doi:10.1145/3653924.3653935
   title: 'HyzoneStore: Hybrid Storage with Flexible Logical Interface and Optimized
     Cache for Zoned Devices'
   authors:
@@ -126,26 +126,26 @@
   publisher: Proceedings of the 2024 7th International Conference on Data Storage
     and Data Engineering
   date: '2024-02-27'
-  link: https://dl.acm.org/doi/10.1145/3653924.3653935
+  link: https://doi.org/10.1145/3653924.3653935
   style: none
   conference: ACM DSDE 2024
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.1109/TC.2024.3485238
+- id: doi:10.1109/TC.2024.3485238
   title: 'CPI: A Collaborative Partial Indexing Design for Large-Scale Deduplication
     Systems'
   authors:
   - Yixun Wei
   - Zhichao Cao
   - David H.C. Du
-  publisher: ''
+  publisher: IEEE Transactions on Computers
   date: '2024-12-08'
-  link: https://ieeexplore.ieee.org/document/10747694/
+  link: https://doi.org/10.1109/TC.2024.3485238
   style: none
   conference: IEEE Transactions on Computers
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.1145/3694715.3695953
+- id: doi:10.1145/3694715.3695953
   title: 'BIZA: Design of Self-Governing Block-Interface ZNS AFA for Endurance and
     Performance'
   authors:
@@ -161,12 +161,12 @@
   - Jie Zhang
   publisher: Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles
   date: '2024-11-04'
-  link: https://dl.acm.org/doi/10.1145/3694715.3695953
+  link: https://doi.org/10.1145/3694715.3695953
   style: none
   conference: ACM SOSP 2024
   plugin: sources.py
   file: sources.yaml
-- id: https://dl.acm.org/doi/10.1145/3725354
+- id: doi:10.1145/3725354
   title: 'SHIELD: Encrypting Persistent Data of LSM-KVS from Monolithic to Disaggregated
     Storage'
   authors:
@@ -177,12 +177,12 @@
   - Zhichao Cao
   publisher: Proceedings of the ACM on Management of Data
   date: '2025-06-17'
-  link: https://dl.acm.org/doi/10.1145/3725354
+  link: https://doi.org/10.1145/3725354
   style: none
   conference: ACM SIGMOD 2025
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.18653/v1/2025.emnlp-main.528
+- id: doi:10.18653/v1/2025.emnlp-main.528
   title: 'Bit-Flip Error Resilience in LLMs: A Comprehensive Analysis and Defense
     Framework'
   authors:
@@ -199,12 +199,12 @@
   publisher: Proceedings of the 2025 Conference on Empirical Methods in Natural Language
     Processing
   date: '2025-11-01'
-  link: https://aclanthology.org/2025.emnlp-main.528/
+  link: https://doi.org/10.18653/v1/2025.emnlp-main.528
   style: none
   conference: EMNLP 2025
   plugin: sources.py
   file: sources.yaml
-- id: https://dl.acm.org/doi/10.1145/3736548.3737839
+- id: doi:10.1145/3736548.3737839
   title: 'Unlocking the Unusable: A Proactive Caching Framework for Reusing Partial
     Overlapped Data'
   authors:
@@ -217,12 +217,12 @@
   publisher: Proceedings of the 17th ACM Workshop on Hot Topics in Storage and File
     Systems
   date: '2025-07-10'
-  link: https://dl.acm.org/doi/10.1145/3736548.3737839
+  link: https://doi.org/10.1145/3736548.3737839
   style: none
   conference: ACM HotStorage 2025
   plugin: sources.py
   file: sources.yaml
-- id: https://dl.acm.org/doi/10.1145/3731545.3731591
+- id: doi:10.1145/3731545.3731591
   title: 'LegoIndex: A Scalable and Modular Indexing Framework for Efficient Analysis
     of Extreme-Scale Particle Data'
   authors:
@@ -233,12 +233,12 @@
   publisher: Proceedings of the 34th International Symposium on High-Performance Parallel
     and Distributed Computing
   date: '2025-07-20'
-  link: https://dl.acm.org/doi/10.1145/3731545.3731591
+  link: https://doi.org/10.1145/3731545.3731591
   conference: HPDC 2025
   style: none
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.48550/arXiv.2510.22400
+- id: arxiv:2510.22400
   title: 'ProGQL: A Provenance Graph Query System for Cyber Attack Investigation'
   authors:
   - Fei Shao
@@ -247,13 +247,13 @@
   - Xusheng Xiao
   publisher: arXiv
   date: '2026-01-20'
-  link: http://arxiv.org/abs/2510.22400
+  link: https://arxiv.org/abs/2510.22400
   conference: ICDE 2026
   style: none
   type: To Appear
   plugin: sources.py
   file: sources.yaml
-- id: https://dl.acm.org/doi/10.1145/3802093
+- id: doi:10.1145/3802093
   title: 'O3-LSM: Maximizing Disaggregated LSM Write Performance via Three-Layer Offloading'
   authors:
   - Qi Lin
@@ -266,12 +266,12 @@
   - Zhichao Cao
   publisher: Proceedings of the ACM on Management of Data
   date: '2026-05-18'
-  link: https://dl.acm.org/doi/10.1145/3802093
+  link: https://doi.org/10.1145/3802093
   conference: ACM SIGMOD 2026
   style: none
   plugin: sources.py
   file: sources.yaml
-- id: https://arxiv.org/abs/2608.27819
+- id: arxiv:2608.27819
   title: 'ANCHOR: A Vision for Secure Persistent Key-Value Stores in Disaggregated
     Data Centers'
   authors:
@@ -279,15 +279,15 @@
   - Dongha Kim
   - Hokeun Kim
   - Zhichao Cao
-  publisher: ''
+  publisher: arXiv
   date: '2026-03-31'
-  link: http://arxiv.org/abs/2608.27819
+  link: https://arxiv.org/abs/2608.27819
   conference: ACM SeQureDB 2026
   style: none
   type: To Appear
   plugin: sources.py
   file: sources.yaml
-- id: https://dl.acm.org/doi/full/10.1145/3797905.3807851
+- id: doi:10.1145/3797905.3807851
   title: 'ColdMap: Compaction-Aware Cost-Benefit Zone Cleaning for ZNS-Based Key-Value
     Stores'
   authors:
@@ -301,13 +301,13 @@
   - Zhichao Cao
   - Youngjae Kim
   publisher: Proceedings of the 40th ACM International Conference on Supercomputing
-  date: '2026-07-06'
-  link: https://dl.acm.org/doi/10.1145/3797905.3807851
+  date: '2026-07-05'
+  link: https://doi.org/10.1145/3797905.3807851
   conference: ACM ICS 2026
   style: none
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.1145/3793230.3839381
+- id: doi:10.1145/3793230.3839381
   title: 'TellyTune: Exploring the Limits of LLM-Assisted Tuning for LSM-Based Key-Value
     Stores'
   authors:
@@ -320,13 +320,13 @@
   - Reza Fuad Rachmadi
   - Zhichao Cao
   publisher: Proceedings of the 19th ACM International Systems and Storage Conference
-  date: '2026-09-08'
-  link: https://dl.acm.org/doi/10.1145/3793230.3839381
+  date: '2026-09-02'
+  link: https://doi.org/10.1145/3793230.3839381
   conference: ACM SYSTOR 2026
   style: none
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.48550/arXiv.2609.14370
+- id: arxiv:2609.14370
   title: 'DiaLSM: Towards Write-Stall-Free Performance via Shard-based LSM-tree'
   authors:
   - Hongsu Byun
@@ -339,7 +339,7 @@
   - Youngjae Kim
   publisher: arXiv
   date: '2026-09-13'
-  link: http://arxiv.org/abs/2609.14370
+  link: https://arxiv.org/abs/2609.14370
   conference: IEEE ICDE 2027
   style: none
   type: To Appear

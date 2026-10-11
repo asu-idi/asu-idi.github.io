@@ -1,11 +1,11 @@
-- id: https://doi.org/10.1145/3655038.3665946
+- id: doi:10.1145/3655038.3665946
   conference: ACM HotStorage 2024
   style: none
   buttons:
     - type: download
       link: ./../publications/files/HS24_ZNS_PersistentCache.pdf
 
-- id: https://doi.org/10.1145/3655038.3665954
+- id: doi:10.1145/3655038.3665954
   conference: ACM HotStorage 2024
   style: none
   buttons:
@@ -35,11 +35,11 @@
   conference: MSST 2024
   date: '2024-06-03'
 
-- id: https://doi.org/10.1145/3654927
+- id: doi:10.1145/3654927
   style: none
   conference: ACM SIGMOD 2024
 
-- id: https://doi.org/10.1109/ICCD58817.2023.00050
+- id: doi:10.1109/ICCD58817.2023.00050
   title: "SMRTS: A Performance and Cost-Effectiveness Optimized SSD-SMR Tiered File System with Data Deduplication"
   style: none
   authors:
@@ -50,7 +50,7 @@
   date: '2023-11-06'
   conference: IEEE ICCD 2023
 
-- id: https://doi.org/10.1109/ICCD58817.2023.00041
+- id: doi:10.1109/ICCD58817.2023.00041
   title: "K8sES: Optimizing Kubernetes with Enhanced Storage Service-Level Objectives"
   style: none
   authors:
@@ -66,11 +66,11 @@
   date: '2023-11-06'
   conference: IEEE ICCD 2023
 
-- id: https://doi.org/10.1145/3653924.3653935
+- id: doi:10.1145/3653924.3653935
   style: none
   conference: ACM DSDE 2024
 
-- id: https://doi.org/10.1109/TC.2024.3485238
+- id: doi:10.1109/TC.2024.3485238
   title: "CPI: A Collaborative Partial Indexing Design for Large-Scale Deduplication Systems"
   style: none
   conference: IEEE Transactions on Computers
@@ -80,34 +80,35 @@
     - Zhichao Cao
     - David H.C. Du
 
-- id: https://doi.org/10.1145/3694715.3695953
+- id: doi:10.1145/3694715.3695953
   title: "BIZA: Design of Self-Governing Block-Interface ZNS AFA for Endurance and Performance"
   style: none
   conference: "ACM SOSP 2024"
 
-- id: https://dl.acm.org/doi/10.1145/3725354
+- id: doi:10.1145/3725354
   style: none
   conference: "ACM SIGMOD 2025"
 
-- id: https://doi.org/10.18653/v1/2025.emnlp-main.528
+- id: doi:10.18653/v1/2025.emnlp-main.528
   style: none
   conference: EMNLP 2025
+  date: '2025-11-01'
 
-- id: https://dl.acm.org/doi/10.1145/3736548.3737839
+- id: doi:10.1145/3736548.3737839
   style: none
   conference: ACM HotStorage 2025
 
-- id: https://dl.acm.org/doi/10.1145/3731545.3731591
+- id: doi:10.1145/3731545.3731591
   conference: HPDC 2025
   style: none
 
-- id: https://doi.org/10.48550/arXiv.2510.22400
+- id: arxiv:2510.22400
   conference: ICDE 2026
   style: none
   date: '2026-01-20'
   type: 'To Appear'
 
-- id: https://dl.acm.org/doi/10.1145/3802093
+- id: doi:10.1145/3802093
   conference: ACM SIGMOD 2026
   style: none
 
@@ -121,17 +122,17 @@
   style: none
   date: '2026-03-31'
   type: 'To Appear'
-  id: https://arxiv.org/abs/2608.27819
+  id: arxiv:2608.27819
 
-- id: https://dl.acm.org/doi/full/10.1145/3797905.3807851
+- id: doi:10.1145/3797905.3807851
   conference: ACM ICS 2026
   style: none
 
-- id: https://doi.org/10.1145/3793230.3839381
+- id: doi:10.1145/3793230.3839381
   conference: ACM SYSTOR 2026
   style: none
 
-- id: https://doi.org/10.48550/arXiv.2609.14370
+- id: arxiv:2609.14370
   title: "DiaLSM: Towards Write-Stall-Free Performance via Shard-based LSM-tree"
   authors:
     - Hongsu Byun
