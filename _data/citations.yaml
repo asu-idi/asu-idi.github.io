@@ -253,9 +253,8 @@
   type: To Appear
   plugin: sources.py
   file: sources.yaml
-- id: https://doi.org/10.48550/arXiv.2603.05439
-  title: 'O^3-LSM: Maximizing Disaggregated LSM Write Performance via Three-Layer
-    Offloading'
+- id: https://dl.acm.org/doi/10.1145/3802093
+  title: 'O3-LSM: Maximizing Disaggregated LSM Write Performance via Three-Layer Offloading'
   authors:
   - Qi Lin
   - Gangqi Huang
@@ -265,28 +264,31 @@
   - Zichen Zhu
   - Jianguo Wang
   - Zhichao Cao
-  publisher: arXiv
-  date: '2026-02-03'
-  link: http://arxiv.org/abs/2603.05439
+  publisher: Proceedings of the ACM on Management of Data
+  date: '2026-05-18'
+  link: https://dl.acm.org/doi/10.1145/3802093
   conference: ACM SIGMOD 2026
   style: none
-  type: To Appear
   plugin: sources.py
   file: sources.yaml
-- title: 'ANCHOR: A Vision for Secure Persistent Key-Value Stores in Disaggregated
+- id: https://arxiv.org/abs/2608.27819
+  title: 'ANCHOR: A Vision for Secure Persistent Key-Value Stores in Disaggregated
     Data Centers'
   authors:
   - Viraj Thakkar
   - Dongha Kim
   - Hokeun Kim
   - Zhichao Cao
+  publisher: ''
+  date: '2026-03-31'
+  link: http://arxiv.org/abs/2608.27819
   conference: ACM SeQureDB 2026
   style: none
-  date: '2026-03-31'
   type: To Appear
   plugin: sources.py
   file: sources.yaml
-- title: 'ColdMap: Compaction-Aware Cost-Benefit Zone Cleaning for ZNS-Based Key-Value
+- id: https://dl.acm.org/doi/full/10.1145/3797905.3807851
+  title: 'ColdMap: Compaction-Aware Cost-Benefit Zone Cleaning for ZNS-Based Key-Value
     Stores'
   authors:
   - Sungjin Byeon
@@ -298,9 +300,64 @@
   - Joo-Young Hwang
   - Zhichao Cao
   - Youngjae Kim
+  publisher: Proceedings of the 40th ACM International Conference on Supercomputing
+  date: '2026-07-06'
+  link: https://dl.acm.org/doi/10.1145/3797905.3807851
   conference: ACM ICS 2026
   style: none
-  date: '2026-04-04'
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1145/3793230.3839381
+  title: 'TellyTune: Exploring the Limits of LLM-Assisted Tuning for LSM-Based Key-Value
+    Stores'
+  authors:
+  - Viraj Thakkar
+  - Qi Lin
+  - Kenanya Prasetyo
+  - Haryosatyo Wisjnunandono
+  - Jin Wang
+  - Achmad Imam Kistijantoro
+  - Reza Fuad Rachmadi
+  - Zhichao Cao
+  publisher: Proceedings of the 19th ACM International Systems and Storage Conference
+  date: '2026-09-08'
+  link: https://dl.acm.org/doi/10.1145/3793230.3839381
+  conference: ACM SYSTOR 2026
+  style: none
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.48550/arXiv.2609.14370
+  title: 'DiaLSM: Towards Write-Stall-Free Performance via Shard-based LSM-tree'
+  authors:
+  - Hongsu Byun
+  - Safdar Jamil
+  - Honghyeon Yoo
+  - Sungyong Park
+  - Myungcheol Lee
+  - Xubin He
+  - Zhichao Cao
+  - Youngjae Kim
+  publisher: arXiv
+  date: '2026-09-13'
+  link: http://arxiv.org/abs/2609.14370
+  conference: IEEE ICDE 2027
+  style: none
+  type: To Appear
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Probe Less, Learn More: Characterizing and Correcting eBPF Instrumentation
+    Overhead'
+  authors:
+  - Viraj Thakkar
+  - Timo Sokler
+  - John Byrne
+  - MJ Son
+  - Sekwon Lee
+  - Harumi Kuno
+  - Aditya Dhakal
+  conference: ProTools Workshop @ SC 2026
+  style: none
+  date: '2026-11-15'
   type: To Appear
   plugin: sources.py
   file: sources.yaml
