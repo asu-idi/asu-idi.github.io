@@ -107,17 +107,9 @@
   date: '2026-01-20'
   type: 'To Appear'
 
-- id: https://doi.org/10.48550/arXiv.2603.05439
+- id: https://dl.acm.org/doi/10.1145/3802093
   conference: ACM SIGMOD 2026
   style: none
-  date: '2026-02-03'
-  type: 'To Appear'
-
-- id: https://doi.org/10.48550/arXiv.2603.05439
-  conference: ACM SIGMOD 2026
-  style: none
-  date: '2026-02-03'
-  type: 'To Appear'
 
 - title: "ANCHOR: A Vision for Secure Persistent Key-Value Stores in Disaggregated Data Centers"
   authors:
@@ -129,19 +121,42 @@
   style: none
   date: '2026-03-31'
   type: 'To Appear'
+  id: https://arxiv.org/abs/2608.27819
 
-- title: "ColdMap: Compaction-Aware Cost-Benefit Zone Cleaning for ZNS-Based Key-Value Stores"
-  authors:
-    - Sungjin Byeon
-    - Kyungwook Min
-    - Jaewan Park
-    - Sangyun Lee
-    - Hong-Yeon Kim
-    - Junyoung Han
-    - Joo-Young Hwang
-    - Zhichao Cao
-    - Youngjae Kim
+- id: https://dl.acm.org/doi/full/10.1145/3797905.3807851
   conference: ACM ICS 2026
   style: none
-  date: '2026-04-04'
+
+- id: https://doi.org/10.1145/3793230.3839381
+  conference: ACM SYSTOR 2026
+  style: none
+
+- id: https://doi.org/10.48550/arXiv.2609.14370
+  title: "DiaLSM: Towards Write-Stall-Free Performance via Shard-based LSM-tree"
+  authors:
+    - Hongsu Byun
+    - Safdar Jamil
+    - Honghyeon Yoo
+    - Sungyong Park
+    - Myungcheol Lee
+    - Xubin He
+    - Zhichao Cao
+    - Youngjae Kim
+  conference: IEEE ICDE 2027
+  style: none
+  date: '2026-09-13'
+  type: 'To Appear'
+
+- title: "Probe Less, Learn More: Characterizing and Correcting eBPF Instrumentation Overhead"
+  authors:
+    - Viraj Thakkar
+    - Timo Sokler
+    - John Byrne
+    - MJ Son
+    - Sekwon Lee
+    - Harumi Kuno
+    - Aditya Dhakal
+  conference: ProTools Workshop @ SC 2026
+  style: none
+  date: '2026-11-15'
   type: 'To Appear'
