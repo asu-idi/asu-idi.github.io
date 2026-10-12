@@ -8,6 +8,7 @@ links:
   email: viraj.online@asu.edu
   website: https://veedata.github.io
   github: veedata
+  cv: https://veedata.github.io/assets/pdf/Viraj_Resume.pdf
 ---
 
 Viraj is usually tinkering with hardware and software. Always looking towards working at the intersection of new, exciting and stressful. 
