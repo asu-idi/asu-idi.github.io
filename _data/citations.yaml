@@ -50,6 +50,7 @@
   - Zhichao Cao
   conference: MSST 2024
   date: '2024-06-03'
+  pdf: https://www.msstconference.org/MSST-history/2024/Papers/msst24-3.1.pdf
   plugin: sources.py
   file: sources.yaml
 - title: 'SAS-Cache: A Semantic-Aware Secondary Cache for LSM-based Key-Value Stores'
@@ -62,6 +63,7 @@
   - Zhichao Cao
   conference: MSST 2024
   date: '2024-06-03'
+  pdf: https://www.msstconference.org/MSST-history/2024/Papers/msst24-3.2.pdf
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1145/3654927
@@ -249,6 +251,7 @@
   date: '2026-01-20'
   link: https://arxiv.org/abs/2510.22400
   conference: ICDE 2026
+  preprint: arxiv:2510.22400
   style: none
   type: To Appear
   plugin: sources.py
@@ -280,11 +283,12 @@
   - Hokeun Kim
   - Zhichao Cao
   publisher: arXiv
-  date: '2026-03-31'
+  date: '2026-08-31'
   link: https://arxiv.org/abs/2608.27819
   conference: ACM SeQureDB 2026
   style: none
   type: To Appear
+  preprint: arxiv:2608.27819
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1145/3797905.3807851
@@ -338,8 +342,9 @@
   - Zhichao Cao
   - Youngjae Kim
   publisher: arXiv
-  date: '2026-09-13'
+  date: '2026-09-15'
   link: https://arxiv.org/abs/2609.14370
+  preprint: arxiv:2609.14370
   conference: IEEE ICDE 2027
   style: none
   type: To Appear

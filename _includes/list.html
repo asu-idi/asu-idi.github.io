@@ -12,7 +12,7 @@
   | reverse
 %}
 
-{% if toAppear.size > 1 %}
+{% if toAppear.size > 0 %}
   {{--}}<h3 id="To Appear">To Appear</h3>
   {% assign data = data | sort: "date" | reverse %}
 {% endif %}
@@ -37,6 +37,8 @@
     link=d.link
     lookup=d.lookup
     name=d.name
+    pdf=d.pdf
+    preprint=d.preprint
     publisher=d.publisher
     conference=d.conference
     repo=d.repo
@@ -90,6 +92,8 @@
       link=d.link
       lookup=d.lookup
       name=d.name
+      pdf=d.pdf
+      preprint=d.preprint
       publisher=d.publisher
       conference=d.conference
       repo=d.repo

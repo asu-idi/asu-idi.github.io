@@ -23,6 +23,7 @@
     - Zhichao Cao
   conference: MSST 2024
   date: '2024-06-03'
+  pdf: https://www.msstconference.org/MSST-history/2024/Papers/msst24-3.1.pdf
 
 - title: "SAS-Cache: A Semantic-Aware Secondary Cache for LSM-based Key-Value Stores"
   style: none
@@ -34,6 +35,7 @@
     - Zhichao Cao
   conference: MSST 2024
   date: '2024-06-03'
+  pdf: https://www.msstconference.org/MSST-history/2024/Papers/msst24-3.2.pdf
 
 - id: doi:10.1145/3654927
   style: none
@@ -102,8 +104,11 @@
   conference: HPDC 2025
   style: none
 
+# ProGQL: A Provenance Graph Query System for Cyber Attack Investigation
+# Remove arxiv and replace ID with DOI when published
 - id: arxiv:2510.22400
   conference: ICDE 2026
+  preprint: arxiv:2510.22400
   style: none
   date: '2026-01-20'
   type: 'To Appear'
@@ -112,17 +117,13 @@
   conference: ACM SIGMOD 2026
   style: none
 
-- title: "ANCHOR: A Vision for Secure Persistent Key-Value Stores in Disaggregated Data Centers"
-  authors:
-    - Viraj Thakkar
-    - Dongha Kim
-    - Hokeun Kim
-    - Zhichao Cao
-  conference: ACM SeQureDB 2026
+# ANCHOR: A Vision for Secure Persistent Key-Value Stores in Disaggregated Data Centers
+# Remove arxiv and replace ID with DOI when published
+- conference: ACM SeQureDB 2026
   style: none
-  date: '2026-03-31'
   type: 'To Appear'
   id: arxiv:2608.27819
+  preprint: arxiv:2608.27819
 
 - id: doi:10.1145/3797905.3807851
   conference: ACM ICS 2026
@@ -132,20 +133,12 @@
   conference: ACM SYSTOR 2026
   style: none
 
+# "DiaLSM: Towards Write-Stall-Free Performance via Shard-based LSM-tree"
+# Remove arxiv and replace ID with DOI when published
 - id: arxiv:2609.14370
-  title: "DiaLSM: Towards Write-Stall-Free Performance via Shard-based LSM-tree"
-  authors:
-    - Hongsu Byun
-    - Safdar Jamil
-    - Honghyeon Yoo
-    - Sungyong Park
-    - Myungcheol Lee
-    - Xubin He
-    - Zhichao Cao
-    - Youngjae Kim
+  preprint: arxiv:2609.14370
   conference: IEEE ICDE 2027
   style: none
-  date: '2026-09-13'
   type: 'To Appear'
 
 - title: "Probe Less, Learn More: Characterizing and Correcting eBPF Instrumentation Overhead"

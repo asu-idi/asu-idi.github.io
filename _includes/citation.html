@@ -8,11 +8,13 @@
 {% assign highlight_author_normalized = highlight_author | strip | downcase %}
 {% assign citation_id = citation.id | default: "" | strip %}
 {% assign citation_id_url = citation_id %}
-{% unless citation_id_url contains "://" %}
-  {% if citation_id_url contains "doi.org/" %}
-    {% assign citation_id_url = citation_id_url | prepend: "https://" %}
-  {% elsif citation_id_url != "" %}
-    {% assign citation_id_url = citation_id_url | prepend: "https://doi.org/" %}
+{% unless citation_id contains "://" or citation_id == "" %}
+  {% if citation_id contains "arxiv:" %}
+    {% assign citation_id_url = citation_id | remove_first: "arxiv:" | prepend: "https://arxiv.org/abs/" %}
+  {% elsif citation_id contains "doi.org/" %}
+    {% assign citation_id_url = citation_id | prepend: "https://" %}
+  {% else %}
+    {% assign citation_id_url = citation_id | prepend: "https://doi.org/" %}
   {% endif %}
 {% endunless %}
 
@@ -100,6 +102,19 @@
             {{ citation_id }}
           </a>
         {% endif %}
+      {% endif %}
+      {% if citation.pdf %}
+        &nbsp; · &nbsp;
+        <a href="{{ citation.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">
+          PDF
+        </a>
+      {% endif %}
+      {% if citation.preprint %}
+        {% assign arxiv = citation.preprint | remove_first: "arxiv:" %}
+        &nbsp; · &nbsp;
+        <a href="https://arxiv.org/abs/{{ arxiv }}" target="_blank" rel="noopener noreferrer">
+          Preprint (arXiv:{{ arxiv }})
+        </a>
       {% endif %}
     </div>
 
